@@ -4,6 +4,8 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
 from sklearn.cluster import KMeans
 from sklearn.externals import joblib
+from sklearn import metrics
+import matplotlib.pyplot as plt
 
 modelURL = '/Users/houqinhan/TEDTalksDataMining/TEDTalksDataMining/Data/model_cluster.pkl'
 
@@ -23,13 +25,27 @@ indices = pd.Series(movies.index, index=movies['title']).drop_duplicates()
 
 print(tfidf_matrix)
 
-num_clusters = 8
-km = KMeans(n_clusters=num_clusters)
-km.fit(tfidf_matrix)
-clusters = km.labels_.tolist()
-print(clusters)
-joblib.dump(km, modelURL)
+# num_clusters = 8
+# km = KMeans(n_clusters=num_clusters)
+# km.fit(tfidf_matrix)
+# clusters = km.labels_.tolist()
+# print(clusters)
+# joblib.dump(km, modelURL)
+# print(metrics.silhouette_score(tfidf_matrix, km.labels_, metric='euclidean'))
+x = []
+y = []
 
+for n in range(15,25):
+    x.append(n)
+    km = KMeans(n_clusters=n)
+    km.fit(tfidf_matrix)
+    y.append(metrics.silhouette_score(tfidf_matrix, km.labels_, metric='euclidean'))
+
+plt.figure(figsize=(10, 10))
+plt.plot(x,y)
+plt.xlabel("n")
+plt.ylabel("Silhouette")
+plt.show()
 # def get_recommendation(title, consine_sim = cosine_sim):
 #     idx = indices[title]
 #     sim_scores = list(enumerate(cosine_sim[idx]))
