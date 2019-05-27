@@ -25,16 +25,15 @@ def video_recommendation(input_tag):
         get_str = get_str.replace('\'', '')
         replaceList.append(get_str)
 
-
-
     movieList.append(input_tag)
     tfidf_matrix = tfidf.fit_transform(replaceList)
     cosine_sim = linear_kernel(tfidf_matrix, tfidf_matrix)
     sim_scores = list(enumerate(cosine_sim[-1]))
     sim_scores = sorted(sim_scores, key=lambda x: x[1], reverse=True)
-    sim_scores = sim_scores[1:2]
+    sim_scores = sim_scores[1:11]
     movie_indices = [i[0]for i in sim_scores]
     result = movies['url'].iloc[movie_indices].tolist()
-    return result[0]
+    return result
+
 
 
