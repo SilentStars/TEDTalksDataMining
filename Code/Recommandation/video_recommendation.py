@@ -3,7 +3,6 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
 
 
-
 def video_recommendation(input_tag):
 
     pd.set_option('display.max_columns', None)
@@ -15,7 +14,6 @@ def video_recommendation(input_tag):
     movies['tags'] = movies['tags'].fillna('')
     movieList = movies['tags'].tolist()
     replaceList = []
-
 
     for str in movieList:
         get_str = ""
