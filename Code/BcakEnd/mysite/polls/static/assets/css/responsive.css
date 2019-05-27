@@ -1,0 +1,921 @@
+@media (min-width:1301px) and (max-width:1450px) {
+     .slider4 .zmovo-slider-contetn > a {
+        margin: 11px 0;
+    }
+     .slider4 .zmovo-slide-cat {
+        margin-bottom: 10px;
+    }
+    .slider4 .zmovo-slide-content {
+        position: absolute;
+        width: auto;
+        bottom: 24px;
+}
+}
+@media (min-width:1200px) and (max-width:1300px) {
+    .zmovo-slide-content {
+        left: 6%;
+    }
+    .zmovo-full-banner-bg .zmovo-slide-content,.zmovo-full-banner-bg2 .zmovo-slide-content  {
+        left: 0;
+    }
+}
+@media (min-width:1024px) and (max-width:1199px) {
+
+    .zmovo-slide-content {
+
+        left: 10%;
+
+    }
+
+    .zmovo-full-banner-bg2 .zmovo-slide-content,.zmovo-full-banner-bg .zmovo-slide-content {
+        left: 0;
+    }
+
+    .zmovo-ft-social-widget ul li {
+
+        margin-right: 2px;
+
+    }
+
+    .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+
+        width: 100%;
+
+    }
+
+    .zmovo-breadcroumb-inner {
+
+        padding-top: 26px;
+
+    }
+
+    .zmovo-breadcroumb-inner span {
+
+        font-size: 47px;
+
+        top: 0;
+
+    }
+
+    .zmovo-login-fb ul li {
+
+        margin: 6px 10px;
+
+    }
+
+    .zmovo-forgate {
+
+        text-align: center;
+
+    }
+
+    .zmovo-remember-me {
+
+        text-align: center;
+
+    }
+
+    .zmovo-forgate-me {
+
+        display: inline-block;
+
+        float: unset;
+
+    }
+    .zmovo-hadidng h2 span {
+        font-size: 15px;
+        padding-left: 10px;
+    }
+
+}
+
+
+
+@media (min-width:992px) and (max-width:1199px) {
+    .zmovo-v-list-content a {
+        line-height: 21px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        display: block;
+        overflow: hidden;
+        margin-top: 6px;
+    }
+    #slider .zmovo-slide-content {
+        bottom: 9%;
+        left: 10%;
+    }
+    .slider4 .slider3 .zmovo-slider-contents{
+        margin-top: 0;
+    }
+    .zmovo-v-box-img .ply-btn {
+        position: absolute;
+        top: 26%;
+    }
+    .zmovo-v-box-img .ply-btn {
+	    top: 24%;
+	}
+	.product-filter-list .bootstrap-select>.dropdown-toggle {
+	    width: 100%;
+	}
+}
+
+
+
+@media (min-width:881px) and (max-width: 990px) {
+.slider4 .slider3 .zmovo-slider-contents {
+    margin-top: 0;
+}
+}
+@media (min-width:576px) and (max-width: 991px) {
+    a.zmoto-instagram-icon {
+        top: 32%;
+    }
+   .slider4 .slider3 .zmovo-slider-contents {
+        margin-top: 0;
+    }
+    .tab-pane .zmovo-product-list > div > .row > div {
+	    width: 50%;
+	}
+}
+
+@media (min-width:900px) and (max-width: 900px) {
+.slider4 .zmovo-slide-content {
+    bottom: 15px;
+}
+}
+@media (min-width:768px) and (max-width: 991px) {
+
+    h2.zmovo-ft-widget-title {
+
+        margin-bottom: 16px;
+
+    }
+
+    .zmovo-breadcroumb-inner span {
+
+        font-size: 52px;
+
+        top: -22px;
+
+        line-height: 60px;
+
+    }
+    #slider .zmovo-slide-content {
+        bottom: 9%;
+        left: 10%;
+    }
+    .zmovo-counter-items {
+
+        margin-bottom: 30px;
+
+    }
+
+    .zmovo-about-img {
+
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .zmovo-v-box-img img {
+
+        width: 100%;
+
+    }
+
+    .zmovo-blog-dec-contents {
+
+        margin-top: 30px;
+
+    }
+
+    .zmovo-blog-dec-contents .zmovo-slide-ply-btn {
+
+        top: 15%;
+
+    }
+
+    .zmovo-blog-items {
+
+        margin-top: 30px;
+
+    }
+
+    .contact-widget {
+
+        margin-top: 30px;
+
+    }
+
+    .zmovo-blog-items .pagination-wrapper {
+
+        margin-bottom: 30px;
+
+    }
+
+    .contact-widget {
+
+        margin-top: 30px;
+
+    }
+
+    .slider3 .zmovo-slider-contents {
+
+        border-radius: 7px;
+
+        margin-top: 30px;
+
+    }
+
+    #navigation.small-screen > ul {
+
+        margin-top: 0px;
+
+        border-left: 1px solid rgba(120, 120, 120, 0.2);
+
+        border-right: 1px solid rgba(120, 120, 120, 0.2);
+
+        border-bottom: 1px solid rgba(120, 120, 120, 0.2);
+
+        margin-bottom: 15px;
+
+    }
+
+    #navigation.small-screen #menu-button {
+
+        padding: 23px 0;
+
+        margin-top: 20px;
+
+    }
+
+    #navigation > ul > li > a {
+
+        padding: 16px 20px;
+
+    }
+
+    #navigation > ul > li.has-sub > a {
+
+        padding: 16px 20px;
+
+    }
+
+    .zmovo-header-right {
+
+        display: none;
+
+    }
+
+    .col-lg-8.zmovo-menus {
+
+        margin-top: -20px;
+
+        margin-left: 27%;
+
+    }
+
+    header.zmovo-header {
+
+        position: unset;
+
+        background-color: #ffffff;
+
+    }
+
+    .col-lg-2.zmovo-logos {
+
+        position: absolute;
+
+        left: auto;
+        right: auto;
+        width: auto;
+        top: 11px;
+
+    }
+
+    #navigation > ul > li > a {
+
+        color: #333333;
+
+    }
+
+    .zmovo-slider-area.slider-2bg {
+
+        padding: 50px 0;
+
+    }
+
+    .banner-ing {
+
+        margin-top: 30px;
+
+    }
+    h2.zmovo-ft-widget-title {
+            margin-top: 30px;
+        }
+        .zmovo-footer-center.pt-50 {
+    padding-top: 20px;
+}
+	.dec-review-dec {
+	    margin-top: 26px;
+	}
+	#list .dec-review-dec {
+	    margin-top: 0;
+	}
+}
+
+@media only screen and (max-width: 768px){
+    .zmovo-slider-contents {
+        height: 270px;
+    }
+    .zmovo-blog-dec-contents .zmovo-slider-contents {
+	    height: auto;
+	}
+    .zmovo-slider-contents img {
+        height: 100%;
+    }
+    .dec-review-dec {
+    margin-top: 26px;
+}
+}
+@media (min-width:768px) and (max-width: 888px) {
+    .slider4 .zmovo-slider-contetn > a {
+        line-height: 26px;
+        margin: 11px 0;
+        display: block;
+        font-size: 20px;
+    }
+    .slider4 .zmovo-slide-cat {
+        display: block;
+        margin-bottom: 9px;
+    }
+    .slider4 .slider3 .zmovo-slider-contents {
+        margin-top: 0;
+        text-align: center;
+    }
+    .slider4 .zmovo-slide-content {
+        bottom: 14px;
+        text-align: left;
+    }
+    .slider4 .zmovo-slider-contents img {
+	    width: 100%;
+	    object-fit: cover;
+	}
+    .zmovo-breadcroumb-inner span {
+        font-size: 44px;
+    }
+}
+@media (min-width:861px) and (max-width: 768px) {
+    .slider4 .zmovo-slide-content {
+        bottom: 40px;
+        text-align: left;
+    }
+}
+@media (min-width:568px) and (max-width: 767px) {
+ .slider4 .slider3 .zmovo-slider-contents {
+        margin-top: 0;
+        text-align: center;
+    }
+    .slider4 .zmovo-slide-content {
+        position: absolute;
+        width: 100%;
+        text-align: left;
+    }
+    .slider4 .zmovo-slide-content {
+        bottom: 14px;
+    }
+    .product-filter-list .nav {
+	    display: inline-block;
+	    text-align: center;
+	    width: 100%;
+	}
+	.product-filter-list {
+	    padding: 10px 0;
+	    padding-bottom: 8px;
+	}
+	.product-filter-list .nav li {
+	    display: inline-block;
+	}
+	.product-filter .pagination {
+	    float: none;
+	    text-align: center;
+	    width: 100%;
+	    display: inline-block;
+	    margin-top: 10px;
+	}
+	.product-filter .pagination li {
+	    display: inline-block;
+	}
+	#list .zmovo-product-list-item, #list .zmovo-product-list-item img {
+	    width: 100%;
+	    text-align: center;
+	}
+	.zmovo-blog-dec-contents .dec-review-meta {
+	    height: 31px;
+	    overflow: hidden;
+	}
+	.zmovo-blog-dec-contents .zmovo-slide-ply-btn {
+	    top: 21%;
+	}
+	.zmovo-blog-dec-contents .zmovo-trailor-meta-info,.zmovo-blog-dec-contents .dec-review-dec .ratting,.zmovo-blog-dec-contents .dec-review-dec {
+	    margin-top: 0;
+	}
+	
+}
+
+@media only screen and (max-width: 775px) {
+
+    #navigation.small-screen > ul {
+
+        margin-top: 0px;
+
+        border-left: 1px solid rgba(120, 120, 120, 0.2);
+
+        border-right: 1px solid rgba(120, 120, 120, 0.2);
+
+        border-bottom: 1px solid rgba(120, 120, 120, 0.2);
+
+        margin-bottom: 15px;
+
+    }
+
+    #navigation.small-screen #menu-button {
+
+        padding: 23px 0;
+
+        margin-top: 20px;
+
+    }
+
+    #navigation > ul > li > a {
+
+        padding: 16px 20px;
+
+    }
+
+    #navigation > ul > li.has-sub > a {
+
+        padding: 16px 20px;
+
+    }
+
+    .zmovo-header-right {
+
+        display: none;
+
+    }
+
+    .col-lg-8.zmovo-menus {
+
+        margin-top: -20px;
+
+        margin-left: 27%;
+
+    }
+
+    header.zmovo-header {
+
+        position: unset;
+
+        background-color: #ffffff;
+
+    }
+
+    .col-lg-2.zmovo-logos {
+    position: absolute;
+    left: auto;
+    top: 11px;
+    right: auto;
+    width: auto;
+
+    }
+
+    #slider .zmovo-slide-content {
+
+        bottom: 9%;
+
+        left: 10%;
+
+    }
+
+    .zmovo-slider-area.slider-2bg {
+
+        padding: 60px 0;
+
+    }
+
+    #navigation > ul > li > a {
+
+        color: #333333;
+
+    }
+
+    .zmovo-slider-contents {
+
+        padding: 0;
+
+    }
+
+    .zmovo-slide-content {
+
+        bottom: 55px;
+
+    }
+
+    h2.zmovo-ft-widget-title {
+
+        margin-top: 30px;
+
+    }
+
+    .zmovo-ft-social-widget.pt-50 {
+
+        padding-top: 30px;
+
+    }
+
+    .zmovo-footer {
+
+        padding-bottom: 16px;
+
+    }
+
+    .zmovo-slider-with-cat.slider4,
+
+    .zmovo-slider-with-cat.slider4 .zmovo-slider-area.slider3 {
+
+        margin-top: 0;
+
+    }
+
+    .zmovo-trailor-meta-info {
+
+        margin-top: 30px;
+
+    }
+
+    .zmovo-product-list .zmovo-trailor-meta-info {
+
+        margin-top: 0;
+
+    }
+
+    .zmovo-signature {
+
+        margin-bottom: 30px;
+
+    }
+
+    .zmovo-counter-items {
+
+        margin-bottom: 30px;
+
+    }
+
+    .zmovo-blog-items {
+
+        margin-top: 30px;
+
+    }
+
+    .zmovo-blog-items .pagination-wrapper {
+
+        margin-bottom: 30px;
+
+    }
+
+    .contact-widget {
+
+        margin-top: 30px;
+
+    }
+
+    .slider3 .zmovo-slider-contents {
+
+        border-radius: 7px;
+
+        margin-top: 30px;
+
+    }
+
+    .banner-ing {
+
+        margin-top: 30px;
+
+    }
+    .zmovo-breadcroumb-inner span {
+        font-size: 44px;
+    }
+      .zmovo-about-img {
+
+        text-align: center;
+        margin-top: 30px;
+    }
+
+
+}
+
+@media (min-width:569px) and (max-width:767px) {
+	.zmovo-product-list .tab-pane > .row > div {
+	    width: 50%;
+	}
+	.zmovo-product-list .tab-pane > .row > div img {
+	    width: 100%;
+	}
+}
+@media (min-width:320px) and (max-width:600px) {
+    .slider4 .slider3 .zmovo-slider-contents {
+        text-align: center;
+        margin-top: 45px;
+    }
+    .slider4 .zmovo-slide-content {
+        text-align: left;
+    }
+
+}
+@media (min-width:320px) and (max-width:575px) {
+
+    .zmovo-slider-contents {
+
+        padding: 0;
+
+        height: 300px;
+
+    }
+
+    .zmovo-v-list-content a {
+
+        margin-top: 9px;
+
+        display: block;
+
+    }
+
+    .zmovo-slider-contents > img {
+
+        height: 300px;
+
+        overflow: hidden;
+
+        object-fit: cover;
+
+    }
+
+    .slider3 .zmovo-slide-content {
+
+        left: 0;
+
+    }
+
+    .zmovo-slider-with-cat.slider4,
+
+    .zmovo-slider-with-cat.slider4 .zmovo-slider-area.slider3 {
+
+        margin-top: 0;
+
+    }
+
+    .zmovo-slider-area .owl-controls {
+
+        display: none;
+
+    }
+
+    .zmovo-v-list-item {
+
+        margin-top: 30px;
+
+    }
+
+    .zmoto-instagram-post {
+
+        margin: 15px 0;
+
+    }
+
+    .zmovo-ft-copyright {
+
+        text-align: center;
+
+    }
+
+    .zmovo-ft-menu {
+
+        text-align: center;
+
+        margin-bottom: 15px;
+
+    }
+
+    .slider-2bg {
+
+        padding: 34px 0;
+
+    }
+
+    .zmovo-slider-area.slider3 {
+
+        margin-top: 30px;
+
+    }
+
+    .banner-ing {
+
+        margin-top: 30px;
+
+    }
+
+    .zmovo-breadcroumb-inner span {
+
+        font-size: 44px;
+
+    }
+
+    .zmovo-trailor-meta-info {
+
+        margin-top: 30px;
+
+    }
+
+    .product-filter-list ul.nav {
+
+        text-align: center;
+
+        margin: auto;
+
+        width: 100%;
+
+        display: block;
+
+    }
+
+    .product-filter-list ul.nav li,
+
+    .product-filter .pagination li {
+
+        display: inline-block;
+
+    }
+
+    .product-filter .pagination {
+
+        float: unset;
+
+        display: block;
+
+        text-align: center;
+
+    }
+
+    .short-by-show.form-inline2 {
+
+        margin: 4px 0;
+
+    }
+
+    .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+
+        width: 100%;
+
+    }
+
+    .zmovo-v-box-img img {
+
+        width: 100%;
+
+    }
+
+    .zmovo-product-list .zmovo-trailor-meta-info {
+
+        margin-top: 30px;
+
+    }
+
+    .zmovo-blog-dec-contents .dec-review-meta {
+
+        height: 60px;
+
+        overflow: hidden;
+
+    }
+
+    .zmovo-blog-dec-contents .zmovo-slide-content {
+
+        left: 0;
+
+        bottom: 0;
+
+    }
+
+    .dec-review-meta ul li span {
+
+        width: 74px;
+
+    }
+
+    .zmovo-blog-dec-contents .zmovo-trailor-meta-info {
+
+        margin-top: 0;
+
+    }
+
+    .zmovo-blog-dec-contents .zmovo-slide-ply-btn {
+
+        top: 21%;
+
+    }
+
+    li.single-comment {
+
+        margin: 37px 0 0px 37px;
+
+    }
+
+    ol.comment-list-reply {
+
+        margin-left: 4px;
+
+    }
+
+    .comment-respond {
+
+        margin-top: 32px;
+
+    }
+
+    .zmovo-login-fb ul li {
+
+        margin: 6px 10px;
+
+    }
+
+    .zmovo-forgate {
+
+        text-align: center;
+
+    }
+
+    .zmovo-remember-me {
+
+        text-align: center;
+
+    }
+
+    .zmovo-forgate-me {
+
+        display: inline-block;
+
+        float: unset;
+
+    }
+
+    .zmovo-blog-social-share {
+
+        display: none;
+
+    }
+
+    .zmovo-b-title a {
+
+        line-height: 33px;
+
+    }
+
+    .zmovo-blog-items {
+
+        margin-top: 30px;
+
+    }
+
+    .zmovo-blog-items .pagination-wrapper {
+
+        margin-bottom: 30px;
+
+    }
+
+    .contact-widget {
+
+        margin-top: 30px;
+
+    }
+
+    .contact-widget {
+
+        margin-top: 30px;
+
+    }
+
+    .banner-ing {
+
+        margin-top: 30px;
+
+    }
+    .zmovo-slider-contetn > a {
+        line-height: 27px;
+    }
+    .zmoto-instagram-post img {
+    width: 100%;
+}
+}
+
+ 
