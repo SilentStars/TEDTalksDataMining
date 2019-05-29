@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7837e72-6085-48c6-8261-8900d3f1977b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Code/Regression/views_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Regression/views_regression.py" afterDir="false" />
-    </list>
+    <list default="true" id="e7837e72-6085-48c6-8261-8900d3f1977b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Code/Regression/views_regression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="43" column="22" lean-forward="true" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+            <state relative-caret-position="342">
+              <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
@@ -268,15 +266,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558681679665</updated>
-      <workItem from="1558681681000" duration="17003000" />
+      <workItem from="1558681681000" duration="17387000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17003000" />
+    <option name="totallyTimeSpent" value="17387000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="683" y="23" width="1440" height="877" extended-state="0" />
+    <frame x="250" y="23" width="1440" height="877" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.14942528" />
@@ -368,8 +366,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Code/Regression/views_regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="43" column="22" lean-forward="true" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+        <state relative-caret-position="342">
+          <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>
