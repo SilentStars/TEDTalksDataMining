@@ -1,0 +1,765 @@
+﻿{% load static %}
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Zmovo - Online Movie Video And TV Show HTML Bootstrap 4 Template">
+    <meta name="keywords" content="Zmovo - Online Movie Video And TV Show HTML Bootstrap 4 Template">
+    <meta name="author" content="Themepul">
+    <title>TED</title>
+    <link href="{% static 'image/favicon.png' %}" rel="icon" />
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/bootstrap-4.2.1/bootstrap.min.css' %}">
+    <!-- END BOOTSTRAP CSS -->
+
+    <!-- OWL CAROUSEL -->
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/owlcarousel/owl.carousel.css' %}">
+    <!-- END OWL CAROUSEL -->
+
+    <!-- FONT CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/css/font-awesome.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/css/icofont.min.css' %}">
+
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/owlcarousel/animated.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/video/video.popup.css' %}">
+
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/css/style.css' %}">
+    <!-- END STYLE CSS -->
+
+    <!-- RESPONSIVE CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/css/responsive.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CPoppins:200,300,400,500,600,700,800,900" rel="stylesheet">
+    <!--[if lt IE 9]>
+        <script src="../../oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="../../oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+</head>
+
+<body>
+    <div class="zmovo-main dark-bg">
+        <!-- Preloader -->
+        
+        <!-- End Preloader -->
+        <header class="zmovo-header">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-2 zmovo-logos">
+                        <div class="zmovo-logo">
+                            <a href=""><strong style="font-size:300% ; color:brown">TED</strong></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 zmovo-menus">
+                        <div class="main-menu">
+                            <div class="navigation">
+                              <div class="menu-container">
+                                <div id="navigation">
+                                    <ul>
+                                        <li class="active has-sub"><span class="submenu-button"></span><a href="{% url 'polls:index' %}">Home<!--{zh}家--><!--{en}Home--><!--{fr}Maison--></a>
+                                            <ul>
+                                                <li><a href="{% url 'polls:index' %}">Homepage<!--{zh}主页--><!--{en}Homepage--><!--{fr}Page d'accueil--></a></li>
+                                                <!--                                                    <li><a href="index-2.html">Home 2</a></li>-->
+                                                <li><a href="{% url 'polls:home2' %}">Catalog<!--{zh}目录--><!--{en}Catalog--><!--{fr}Répertoire--></a></li>
+                                                <li><a href="{% url 'polls:home3' %}">Personal<!--{zh}个人--><!--{en}Personal--><!--{fr}Privé--></a></li>
+                                                <!--                                                    <li><a href="index-5.html">Home 5</a></li>-->
+                                            </ul>
+                                        </li>
+                                        <li><a href="{% url 'polls:data' %}">Data<!--{zh}数据--><!--{en}Data--><!--{fr}Les données--></a></li>
+                                        <li><a href="{% url 'polls:about' %}">About<!--{zh}关于--><!--{en}About--><!--{fr}sur--></a></li>
+<!--                                        <li class="has-sub"><span class="submenu-button"></span><a href="index.html">Product</a>-->
+<!--                                            <ul>-->
+<!--                                                <li class="has-sub"><span class="submenu-button"></span><a href="#">Grid view</a>-->
+<!--                                                    <ul>-->
+<!--                                                        <li><a href="grid.html">4 column</a></li>-->
+<!--                                                        <li><a href="grid-left.html">Left Side</a></li>-->
+<!--                                                        <li><a href="grid-right.html">Right Side</a></li>-->
+<!--                                                    </ul>-->
+<!--                                                </li>-->
+<!--                                                <li class="has-sub"><span class="submenu-button"></span><a href="#">List view</a>-->
+<!--                                                    <ul>-->
+<!--                                                        <li><a href="list.html">one column</a></li>-->
+<!--                                                        <li><a href="list-left.html">Left Side</a></li>-->
+<!--                                                        <li><a href="list-right.html">Right Side</a></li>-->
+<!--                                                    </ul>-->
+<!--                                                </li>-->
+<!--                                                <li><a href="product-single.html">Single Product</a></li>-->
+<!--                                            </ul>-->
+<!--                                        </li>-->
+<!--                                        <li class="has-sub"><span class="submenu-button"></span><a href="index.html">Page</a>-->
+<!--                                            <ul>-->
+<!--                                                <li class="has-sub"><span class="submenu-button"></span><a href="#">Login</a>-->
+<!--                                                    <ul>-->
+<!--                                                        <li><a href="login.html">Login</a></li>-->
+<!--                                                        <li><a href="ragister.html">Register</a></li>-->
+<!--                                                    </ul>-->
+<!--                                                </li>-->
+<!--                                            </ul>-->
+<!--                                        </li>-->
+<!--                                         <li class="has-sub"><span class="submenu-button"></span><a href="#">blog</a>-->
+<!--                                            <ul>-->
+<!--                                                <li class="has-sub"><span class="submenu-button"></span><a href="#">Blog Page</a>-->
+<!--                                                    <ul>-->
+<!--                                                        <li><a href="blog.html">Blog Left</a></li>-->
+<!--                                                        <li><a href="blog-2.html">Blog Right</a></li>-->
+<!--                                                    </ul>-->
+<!--                                                </li>-->
+<!--                                                <li class="has-sub"><span class="submenu-button"></span><a href="#">Blog Single</a>-->
+<!--                                                    <ul>-->
+<!--                                                        <li><a href="blog-details.html">Blog Single 1</a></li>-->
+<!--                                                        <li><a href="blog-details-2.html">Blog Single 2</a></li>-->
+<!--                                                    </ul>-->
+<!--                                                </li>-->
+<!--                                            </ul>-->
+<!--                                        </li>-->
+                                        <li><a href="{% url 'polls:contact' %}">Contact Us<!--{zh}联系我们--><!--{en}Contact Us--><!--{fr}Nous contacter--></a></li>
+                                        <li class="active has-sub"><span class="submenu-button"></span><a >Language<!--{zh}语言--><!--{en}Language--><!--{fr}Langue--></a>
+                                            <ul>
+                                                <li id="toZH"><a href="#">Chinese<!--{zh}中文--><!--{en}Chinese--><!--{fr}Chinois--></a></li>
+                                                <li id="toEN"><a href="#">English<!--{zh}英文--><!--{en}English--><!--{fr}Anglais--></a></li>
+                                                <li id="toFR"><a href="#">French<!--{zh}法语--><!--{en}French--><!--{fr}Le français--></a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                              </div>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="col-lg-2 zmovo-t-right">
+                        <div class="zmovo-header-right">
+                            <div class="zmovo-top-search">
+                                <div class="zmovo-ser-icon" id="clickserch"><span class="fa fa-search"></span></div>
+                                <div class="zmovo-hidden-search" id="opensearch">
+                                    <input type="search" placeholder="Enter the movie Name">
+                                </div>
+                            </div>
+                            <div class="zmovo-login">
+                                <a href="{% url 'login' %}" class="btn login-btn"><span class="fa fa-user"></span> Login<!--{zh}登录--><!--{en}Login--><!--{fr}Connexion--></a>
+                                <a href="{% url 'polls:signup' %}" class="btn login-btn"><span class="fa fa-user"></span> Signup<!--{zh}注册--><!--{en}Signup--><!--{fr}Singnup--></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- breadcroumb-area -->
+
+        {% if user.is_authenticated %}
+        <div class="zmovo-breadcroumb-area">
+            <div class="zmovo-breadcroumb-bg">
+                <div class="container">
+                    <div class="zmovo-breadcroumb-inner text-center">
+                        <h2>Data<!--{zh}数据--><!--{en}Data--><!--{fr}Les données--></h2>
+                        <span>Data<!--{zh}数据--><!--{en}Data--><!--{fr}Les données--></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End breadcroumb-area -->
+        <div class="zmoto-inner-page">
+            <div class="zmovo-trailor-page">
+                <div class="zmovo-trailor pt-50">
+                    <div class="container">
+                        <div class="zmovo-trailor-slides" id="trailor">
+                            <div class="item">
+                                <div class="zmovo-trailor-img">
+                                    <img src="image/trailor/1.jpg" alt="">
+                                    <div class="zmovo-slide-ply-btn text-center">
+                                        <a href="" data-video-url="https://youtu.be/_QdPW8JrYzQ" class="video-popup"><img src="image/play-button.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="zmovo-trailor-img">
+                                    <img src="image/trailor/1.jpg" alt="">
+                                    <div class="zmovo-slide-ply-btn text-center">
+                                        <a href="" data-video-url="https://youtu.be/36m1o-tM05g" class="video-popup"><img src="image/play-button.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="zmovo-trailor-info pt-30">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="zmovo-trailor-contents">
+                                        <div class="row">
+                                            <div class="offset-lg-1 col-lg-11">
+                                                <div class="zmoto-trailor-content">
+                                                    <div class="row align-items-center">
+                                                        <div class="col-lg-5">
+                                                            <div class="zmovo-trailor-img-slides" id="trailor-img-slide">
+                                                                <div class="item">
+                                                                    <div class="zmovo-trailor-img-slide">
+<!--                                                                        <span>premium</span>-->
+                                                                        <img src="image/trailor/small/1.png" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="item">
+                                                                    <div class="zmovo-trailor-img-slide">
+<!--                                                                        <span>premium</span>-->
+                                                                        <img src="image/trailor/small/2.png" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="item">
+                                                                    <div class="zmovo-trailor-img-slide">
+<!--                                                                        <span>premium</span>-->
+                                                                        <img src="image/trailor/small/3.png" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="item">
+                                                                    <div class="zmovo-trailor-img-slide">
+<!--                                                                        <span>premium</span>-->
+                                                                        <img src="image/trailor/small/4.png" alt="">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6 offset-lg-1">
+                                                            <div class="zmovo-trailor-meta-info">
+                                                                <div class="dec-review-dec">
+                                                                    <div class="details-title">
+                                                                        <a href="">This Is What Happens When You Reply To Spam Email (2016)<!--{zh}回复垃圾邮件时会发生什么（2016）--><!--{en}This Is What Happens When You Reply To Spam Email (2016)--><!--{fr}C'est ce qui se passe lorsque vous répondez à un courrier indésirable (2016)--></a>
+                                                                    </div>
+                                                                    <div class="ratting">
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+<!--                                                                        <a href="">6/5 ratitng</a>-->
+                                                                    </div>
+                                                                    <div class="dec-review-meta">
+                                                                        <ul>
+                                                                            <li><span>Genre <!--{zh}类型--><!--{en}Genre--><!--{fr}Genre--><label>:</label></span><a >story,communication,long time<!--{zh}故事，交流，长期--><!--{en}story,communication,long time--><!--{fr}histoire, communication, long time--></a></li>
+                                                                            <li><span>Speaker<!--{zh}讲述者--><!--{en}Speaker--><!--{fr}Orateur--> <label>:</label></span><a >James Veitch<!--{zh}--><!--{en}--><!--{fr}--></a></li>
+                                                                            <li><span>Views <!--{zh}播放量--><!--{en}Views--><!--{fr}Des vues--><label>:</label></span><a >39.13 million<!--{zh}3913 万次--><!--{en}39.13 million--><!--{fr}39.13 millions--></a></li>
+                                                                            <li><span>Release <!--{zh}发行--><!--{en}Release--><!--{fr}Libération--><label>:</label></span><a >2016,02,01</a></li>
+                                                                            <li><span>Language <!--{zh}语言--><!--{en}Language--><!--{fr}La langue--><label>:</label></span><a >English<!--{zh}英语--><!--{en}English--><!--{fr}Anglais--></a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <div class="social-links">
+                                                                        <strong>Share :<!--{zh}分享 ：--><!--{en}Share :--><!--{fr}Partager :--></strong>
+                                                                        <a href="" class="socila-fb"><span class="fa fa-facebook"></span></a>
+                                                                        <a href="" class="socila-tw"><span class="fa fa-twitter"></span></a>
+                                                                        <a href="" class="socila-sk"><span class="fa fa-skype"></span></a>
+                                                                        <a href="" class="socila-pin"><span class="fa fa-pinterest"></span></a>
+                                                                        <a href="" class="socila-ins"><span class="fa fa-instagram"></span></a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="zmovo-trailor-story">
+                                                    <h2>Introduction<!--{zh}简介--><!--{en}Introduction--><!--{fr}Introduction--></h2>
+                                                    <div class="zmovo-trailor-dec">
+                                                        <p>Suspicious emails: unclaimed insurance bonds, diamond-encrusted safe deposit boxes, close friends marooned in a foreign country. They pop up in our inboxes, and standard procedure is to delete on sight. But what happens when you reply? Follow along as writer and comedian James Veitch narrates a hilarious, months-long exchange with a spammer who offered to cut him in on a hot deal.<!--{zh}可疑的电子邮件：无人认领的保险债券，钻石镶嵌的保险箱，在国外无家可归的好朋友。 它们会弹出我们的收件箱，标准程序是在视线中删除。 但是当你回复时会发生什么？ 作为一名作家兼喜剧演员詹姆斯·维奇（James Veitch）讲述了一个与垃圾邮件发送者进行长达数月的热闹交流的故事。--><!--{en}Suspicious emails: unclaimed insurance bonds, diamond-encrusted safe deposit boxes, close friends marooned in a foreign country. They pop up in our inboxes, and standard procedure is to delete on sight. But what happens when you reply? Follow along as writer and comedian James Veitch narrates a hilarious, months-long exchange with a spammer who offered to cut him in on a hot deal.--><!--{fr}Suspicious emails: unclaimed insurance bonds, diamond-encrusted safe deposit boxes, close friends marooned in a foreign country. They pop up in our inboxes, and standard procedure is to delete on sight. But what happens when you reply? Follow along as writer and comedian James Veitch narrates a hilarious, months-long exchange with a spammer who offered to cut him in on a hot deal.--></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- FULL WIDHT BANNER -->
+<!--                <div class="zmovo-fullwidht-banner pt-50">-->
+<!--                  <div class="zmovo-fullwidth-b-inner">-->
+<!--                    <div class="zmovo-full-banner-bg">-->
+<!--                      <div class="zmovo-slide-content">-->
+<!--                        <div class="container">-->
+<!--                          <div class="items" id="banner">-->
+<!--                              <div class="item">-->
+<!--                                  <div class="zmovo-slide-ply-btn text-center">-->
+<!--                                    <a href="" data-video-url="https://www.youtube.com/watch?v=CsVJoCKc9rA" class="video-popup"><img src="image/play-button.png" alt=""></a>-->
+<!--                                  </div>-->
+<!--                                  <div class="zmovo-slider-contetn">-->
+<!--                                    <div class="zmovo-slider-premium-tag">-->
+<!--                                      <span class="c1-bg">Trailer</span>-->
+<!--                                    </div>-->
+<!--                                    <h2>Upcoming Movies 2019</h2>-->
+<!--                                    <a href="">The Happy Nutcracker and the Four Realms</a>-->
+<!--                                    <div class="zmovo-v-tag c2">-->
+<!--                                      <span>Romance, English, 2019</span>-->
+<!--                                    </div>-->
+<!--                                      <div class="movie-time"><i class="fa fa-clock-o"></i><span>2 Hr 3 Min</span></div>-->
+<!--                                  </div>-->
+<!--                              </div>-->
+<!--                              <div class="item">-->
+<!--                                  <div class="zmovo-slide-ply-btn text-center">-->
+<!--                                    <a href="" data-video-url="https://www.youtube.com/watch?v=CsVJoCKc9rA" class="video-popup"><img src="image/play-button.png" alt=""></a>-->
+<!--                                  </div>-->
+<!--                                  <div class="zmovo-slider-contetn">-->
+<!--                                    <div class="zmovo-slider-premium-tag">-->
+<!--                                      <span class="c1-bg">Trailer</span>-->
+<!--                                    </div>-->
+<!--                                    <h2>Upcoming Movies 2019</h2>-->
+<!--                                    <a href="">The Happy Nutcracker and the Four Realms</a>-->
+<!--                                    <div class="zmovo-v-tag c2">-->
+<!--                                      <span>Romance, English, 2019</span>-->
+<!--                                    </div>-->
+<!--                                      <div class="movie-time"><i class="fa fa-clock-o"></i><span>2 Hr 3 Min</span></div>-->
+<!--                                  </div>-->
+<!--                              </div>-->
+<!--                              <div class="item">-->
+<!--                                  <div class="zmovo-slide-ply-btn text-center">-->
+<!--                                    <a href="" data-video-url="https://www.youtube.com/watch?v=CsVJoCKc9rA" class="video-popup"><img src="image/play-button.png" alt=""></a>-->
+<!--                                  </div>-->
+<!--                                  <div class="zmovo-slider-contetn">-->
+<!--                                    <div class="zmovo-slider-premium-tag">-->
+<!--                                      <span class="c1-bg">Trailer</span>-->
+<!--                                    </div>-->
+<!--                                    <h2>Upcoming Movies 2019</h2>-->
+<!--                                    <a href="">The Happy Nutcracker and the Four Realms</a>-->
+<!--                                    <div class="zmovo-v-tag c2">-->
+<!--                                      <span>Romance, English, 2019</span>-->
+<!--                                    </div>-->
+<!--                                      <div class="movie-time"><i class="fa fa-clock-o"></i><span>2 Hr 3 Min</span></div>-->
+<!--                                  </div>-->
+<!--                              </div>-->
+<!--                              <div class="item">-->
+<!--                                  <div class="zmovo-slide-ply-btn text-center">-->
+<!--                                    <a href="" data-video-url="https://www.youtube.com/watch?v=CsVJoCKc9rA" class="video-popup"><img src="image/play-button.png" alt=""></a>-->
+<!--                                  </div>-->
+<!--                                  <div class="zmovo-slider-contetn">-->
+<!--                                    <div class="zmovo-slider-premium-tag">-->
+<!--                                      <span class="c1-bg">Trailer</span>-->
+<!--                                    </div>-->
+<!--                                    <h2>Upcoming Movies 2019</h2>-->
+<!--                                    <a href="">The Happy Nutcracker and the Four Realms</a>-->
+<!--                                    <div class="zmovo-v-tag c2">-->
+<!--                                      <span>Romance, English, 2019</span>-->
+<!--                                    </div>-->
+<!--                                      <div class="movie-time"><i class="fa fa-clock-o"></i><span>2 Hr 3 Min</span></div>-->
+<!--                                  </div>-->
+<!--                              </div>-->
+<!--                          </div>-->
+<!--                        </div>-->
+<!--                      </div>-->
+<!--                    </div>-->
+<!--                  </div>-->
+<!--                </div>-->
+                <!-- END FULL WIDHT BANNER -->
+                <!-- team member -->
+<!--                <div class="zmovo-team-section arow-icon">-->
+<!--                    <div class="container">-->
+<!--                        <div class="zmovo-hadidng pt-50 pb-30">-->
+<!--                            <h2><span>Our Team</span></h2>-->
+<!--                        </div>-->
+<!--                        <div class="zmovo-teams" id="team">-->
+<!--                            <div class="item">-->
+<!--                                <div class="zmovo-team">-->
+<!--                                    <img src="image/team/1.jpg" alt="">-->
+<!--                                    <div class="zmovo-team-content">-->
+<!--                                        <div class="zmovo-team-social">-->
+<!--                                            <ul>-->
+<!--                                                <li class="tfb"><a href=""><span class="fa fa-facebook"></span></a></li>-->
+<!--                                                <li class="ttw"><a href=""><span class="fa fa-twitter"></span></a></li>-->
+<!--                                                <li class="tin"><a href=""><span class="fa fa-instagram"></span></a></li>-->
+<!--                                            </ul>-->
+<!--                                        </div>-->
+<!--                                        <div class="zmovo-team-title">-->
+<!--                                            <a href="">Jon kmpro kellys</a>-->
+<!--                                            <h4>director</h4>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="item">-->
+<!--                                <div class="zmovo-team">-->
+<!--                                    <img src="image/team/2.jpg" alt="">-->
+<!--                                    <div class="zmovo-team-content">-->
+<!--                                        <div class="zmovo-team-social">-->
+<!--                                            <ul>-->
+<!--                                                <li class="tfb"><a href=""><span class="fa fa-facebook"></span></a></li>-->
+<!--                                                <li class="ttw"><a href=""><span class="fa fa-twitter"></span></a></li>-->
+<!--                                                <li class="tin"><a href=""><span class="fa fa-instagram"></span></a></li>-->
+<!--                                            </ul>-->
+<!--                                        </div>-->
+<!--                                        <div class="zmovo-team-title">-->
+<!--                                            <a href="">Jon kmpro kellys</a>-->
+<!--                                            <h4>director</h4>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="item">-->
+<!--                                <div class="zmovo-team">-->
+<!--                                    <img src="image/team/3.jpg" alt="">-->
+<!--                                    <div class="zmovo-team-content">-->
+<!--                                        <div class="zmovo-team-social">-->
+<!--                                            <ul>-->
+<!--                                                <li class="tfb"><a href=""><span class="fa fa-facebook"></span></a></li>-->
+<!--                                                <li class="ttw"><a href=""><span class="fa fa-twitter"></span></a></li>-->
+<!--                                                <li class="tin"><a href=""><span class="fa fa-instagram"></span></a></li>-->
+<!--                                            </ul>-->
+<!--                                        </div>-->
+<!--                                        <div class="zmovo-team-title">-->
+<!--                                            <a href="">Jon kmpro kellys</a>-->
+<!--                                            <h4>director</h4>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="item">-->
+<!--                                <div class="zmovo-team">-->
+<!--                                    <img src="image/team/4.jpg" alt="">-->
+<!--                                    <div class="zmovo-team-content">-->
+<!--                                        <div class="zmovo-team-social">-->
+<!--                                            <ul>-->
+<!--                                                <li class="tfb"><a href=""><span class="fa fa-facebook"></span></a></li>-->
+<!--                                                <li class="ttw"><a href=""><span class="fa fa-twitter"></span></a></li>-->
+<!--                                                <li class="tin"><a href=""><span class="fa fa-instagram"></span></a></li>-->
+<!--                                            </ul>-->
+<!--                                        </div>-->
+<!--                                        <div class="zmovo-team-title">-->
+<!--                                            <a href="">Jon kmpro kellys</a>-->
+<!--                                            <h4>director</h4>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                &lt;!&ndash; end team member &ndash;&gt;-->
+<!--                <div class="zmovo-Popular-item arow-icon">-->
+<!--                  <div class="container">-->
+<!--                    <div class="zmovo-Popular-items">-->
+<!--                      <div class="zmovo-hadidng pt-50 pb-30">-->
+<!--                          <h2><span class="text-uppercase">Related Movie</span></h2>-->
+<!--                      </div>-->
+<!--                      &lt;!&ndash; items &ndash;&gt;-->
+<!--                       <div class="items" id="popular-shows">-->
+<!--                        &lt;!&ndash; ITEM &ndash;&gt;-->
+<!--                        <div class="item">-->
+<!--                            <div class="zmovo-video-item-box">-->
+<!--                                <div class="zmovo-video-box-inner">-->
+<!--                                    <div class="zmovo-v-box-img gradient">-->
+<!--                                        <img src="image/product/popular/1.jpg" alt="">-->
+<!--                                        <div class="ply-btns">-->
+<!--                                            <a href="" data-video-url="https://www.youtube.com/watch?v=CsVJoCKc9rA" class="ply-btn video-popup"><img src="image/play-button.png" alt=""></a>-->
+<!--                                        </div>-->
+<!--                                        <div class="zmovo-v-box-content">-->
+<!--                                            <a href="">Clue of the Invisible Hand action movie</a>-->
+<!--                                            <div class="zmovo-v-tag c2">-->
+<!--                                                <span>Romance, English, 2019</span>-->
+<!--                                            </div>-->
+<!--                                            <div class="movie-time"><i class="fa fa-clock-o c1"></i><span>2 Hr 3 Min</span></div>-->
+<!--                                            <div class="like-icon">-->
+<!--                                                <a href=""><span class="fa fa-heart-o"></span></a>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        &lt;!&ndash; END ITEM &ndash;&gt;-->
+<!--                        &lt;!&ndash; ITEM &ndash;&gt;-->
+<!--                        <div class="item">-->
+<!--                            <div class="zmovo-video-item-box">-->
+<!--                                <div class="zmovo-video-box-inner">-->
+<!--                                    <div class="zmovo-v-box-img gradient">-->
+<!--                                        <img src="image/product/popular/2.jpg" alt="">-->
+<!--                                        <div class="ply-btns">-->
+<!--                                            <a href="" data-video-url="https://www.youtube.com/watch?v=CsVJoCKc9rA" class="ply-btn video-popup"><img src="image/play-button.png" alt=""></a>-->
+<!--                                        </div>-->
+<!--                                        <div class="zmovo-v-box-content">-->
+<!--                                            <a href="">A Millipede Dreams of mas Four Realms</a>-->
+<!--                                            <div class="zmovo-v-tag c2">-->
+<!--                                                <span>Romance, English, 2019</span>-->
+<!--                                            </div>-->
+<!--                                            <div class="movie-time"><i class="fa fa-clock-o c1"></i><span>2 Hr 3 Min</span></div>-->
+<!--                                            <div class="like-icon">-->
+<!--                                                <a href=""><span class="fa fa-heart-o"></span></a>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        &lt;!&ndash; END ITEM &ndash;&gt;-->
+<!--                        &lt;!&ndash; ITEM &ndash;&gt;-->
+<!--                        <div class="item">-->
+<!--                            <div class="zmovo-video-item-box">-->
+<!--                                <div class="zmovo-video-box-inner">-->
+<!--                                    <div class="zmovo-v-box-img gradient">-->
+<!--                                        <img src="image/product/popular/3.jpg" alt="">-->
+<!--                                        <div class="ply-btns">-->
+<!--                                            <a href="" data-video-url="https://www.youtube.com/watch?v=CsVJoCKc9rA" class="ply-btn video-popup"><img src="image/play-button.png" alt=""></a>-->
+<!--                                        </div>-->
+<!--                                        <div class="zmovo-v-box-content">-->
+<!--                                            <a href="">Alice B. Toklas in Wonder land Happy </a>-->
+<!--                                            <div class="zmovo-v-tag c2">-->
+<!--                                                <span>Romance, English, 2019</span>-->
+<!--                                            </div>-->
+<!--                                            <div class="movie-time"><i class="fa fa-clock-o c1"></i><span>2 Hr 3 Min</span></div>-->
+<!--                                            <div class="like-icon">-->
+<!--                                                <a href=""><span class="fa fa-heart-o"></span></a>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        &lt;!&ndash; END ITEM &ndash;&gt;-->
+<!--                        &lt;!&ndash; ITEM &ndash;&gt;-->
+<!--                        <div class="item">-->
+<!--                            <div class="zmovo-video-item-box">-->
+<!--                                <div class="zmovo-video-box-inner">-->
+<!--                                    <div class="zmovo-v-box-img gradient">-->
+<!--                                        <img src="image/product/popular/4.jpg" alt="">-->
+<!--                                        <div class="ply-btns">-->
+<!--                                            <a href="" data-video-url="https://www.youtube.com/watch?v=CsVJoCKc9rA" class="ply-btn video-popup"><img src="image/play-button.png" alt=""></a>-->
+<!--                                        </div>-->
+<!--                                        <div class="zmovo-v-box-content">-->
+<!--                                            <a href="">the Four Realms Conned, Some Are Concact</a>-->
+<!--                                            <div class="zmovo-v-tag c2">-->
+<!--                                                <span>Romance, English, 2019</span>-->
+<!--                                            </div>-->
+<!--                                            <div class="movie-time"><i class="fa fa-clock-o c1"></i><span>2 Hr 3 Min</span></div>-->
+<!--                                            <div class="like-icon">-->
+<!--                                                <a href=""><span class="fa fa-heart-o"></span></a>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        &lt;!&ndash; END ITEM &ndash;&gt;-->
+<!--                        &lt;!&ndash; ITEM &ndash;&gt;-->
+<!--                        <div class="item">-->
+<!--                            <div class="zmovo-video-item-box">-->
+<!--                                <div class="zmovo-video-box-inner">-->
+<!--                                    <div class="zmovo-v-box-img gradient">-->
+<!--                                        <img src="image/product/popular/5.jpg" alt="">-->
+<!--                                        <div class="ply-btns">-->
+<!--                                            <a href="" data-video-url="https://www.youtube.com/watch?v=CsVJoCKc9rA" class="ply-btn video-popup"><img src="image/play-button.png" alt=""></a>-->
+<!--                                        </div>-->
+<!--                                        <div class="zmovo-v-box-content">-->
+<!--                                            <a href="">The Days of Promise, Days of Hope</a>-->
+<!--                                            <div class="zmovo-v-tag c2">-->
+<!--                                                <span>Romance, English, 2019</span>-->
+<!--                                            </div>-->
+<!--                                            <div class="movie-time"><i class="fa fa-clock-o c1"></i><span>2 Hr 3 Min</span></div>-->
+<!--                                            <div class="like-icon">-->
+<!--                                                <a href=""><span class="fa fa-heart-o"></span></a>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        &lt;!&ndash; END ITEM &ndash;&gt;-->
+<!--                    </div>-->
+<!--                      &lt;!&ndash; end items &ndash;&gt;-->
+<!--                      &lt;!&ndash; ALL VIEW &ndash;&gt;-->
+<!--                      <div class="button pt-50 text-center">-->
+<!--                           <a href="" class="btn btn-radus">view all <span class="fa fa-angle-right"></span></a>-->
+<!--                      </div>-->
+<!--                      &lt;!&ndash; END ALL VIEW &ndash;&gt;-->
+<!--                    </div>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        &lt;!&ndash; FOOTER &ndash;&gt;-->
+<!--        <footer class="zmovo-footer-area pt-50">-->
+<!--            <div class="zmovo-footer">-->
+<!--                <div class="container">-->
+<!--                    <div class="zmovo-footer-top">-->
+<!--                        <div class="row">-->
+<!--                            <div class="col-sm-3 col-lg-3">-->
+<!--                                <div class="zmoto-instagram-post gradient1">-->
+<!--                                    <img src="image/instagram/1.jpg" alt="">-->
+<!--                                    <a href="" class="zmoto-instagram-icon"><span class="fa fa-instagram"></span></a>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="col-sm-3 col-lg-3">-->
+<!--                                <div class="zmoto-instagram-post gradient1">-->
+<!--                                    <img src="image/instagram/2.jpg" alt="">-->
+<!--                                    <a href="" class="zmoto-instagram-icon"><span class="fa fa-instagram"></span></a>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="col-sm-3 col-lg-3">-->
+<!--                                <div class="zmoto-instagram-post gradient1">-->
+<!--                                    <img src="image/instagram/3.jpg" alt="">-->
+<!--                                    <a href="" class="zmoto-instagram-icon"><span class="fa fa-instagram"></span></a>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="col-sm-3 col-lg-3">-->
+<!--                                <div class="zmoto-instagram-post gradient1">-->
+<!--                                    <img src="image/instagram/4.jpg" alt="">-->
+<!--                                    <a href="" class="zmoto-instagram-icon"><span class="fa fa-instagram"></span></a>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="zmovo-footer-center pt-50">-->
+<!--                        <div class="zmovo-ft-widgets">-->
+<!--                            <div class="row">-->
+<!--                                <div class="col-sm-6 col-lg-3">-->
+<!--                                    <div class="zmovo-ft-widget">-->
+<!--                                        <div class="zmovo-ft-widget-titles">-->
+<!--                                            <h2 class="zmovo-ft-widget-title">Movies Category</h2>-->
+<!--                                        </div>-->
+<!--                                        <div class="zmoto-ft-widget-contetn">-->
+<!--                                            <ul>-->
+<!--                                                <li><a href="">Movies</a></li>-->
+<!--                                                <li><a href="">Videos</a></li>-->
+<!--                                                <li><a href="">English Movies</a></li>-->
+<!--                                                <li><a href="">China Movies</a></li>-->
+<!--                                                <li><a href="">Tailor</a></li>-->
+<!--                                                <li><a href="">Upcoming Movies</a></li>-->
+<!--                                                <li><a href="">Contact Us</a></li>-->
+<!--                                            </ul>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <div class="col-sm-6 col-lg-3">-->
+<!--                                    <div class="zmovo-ft-widget">-->
+<!--                                        <div class="zmovo-ft-widget-titles no-text">-->
+<!--                                            <h2 class="zmovo-ft-widget-title">information</h2>-->
+<!--                                        </div>-->
+<!--                                        <div class="zmoto-ft-widget-contetn">-->
+<!--                                            <ul>-->
+<!--                                                <li><a href="">About Us</a></li>-->
+<!--                                                <li><a href="">Song</a></li>-->
+<!--                                                <li><a href="">Forums</a></li>-->
+<!--                                                <li><a href="">Place</a></li>-->
+<!--                                                <li><a href="">Hot Collection</a></li>-->
+<!--                                                <li><a href="">Upcoming Events</a></li>-->
+<!--                                                <li><a href="">All Movies</a></li>-->
+<!--                                            </ul>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <div class="col-sm-6 col-lg-3">-->
+<!--                                    <div class="zmovo-ft-widget">-->
+<!--                                        <div class="zmovo-ft-widget-titles no-text">-->
+<!--                                            <h2 class="zmovo-ft-widget-title">Locations</h2>-->
+<!--                                        </div>-->
+<!--                                        <div class="zmoto-ft-widget-contetn">-->
+<!--                                            <ul>-->
+<!--                                                <li><a href="">South Korea</a></li>-->
+<!--                                                <li><a href="">Germany</a></li>-->
+<!--                                                <li><a href="">United States</a></li>-->
+<!--                                                <li><a href="">France</a></li>-->
+<!--                                                <li><a href="">India</a></li>-->
+<!--                                                <li><a href="">New Movies</a></li>-->
+<!--                                                <li><a href="">United Kingdom</a></li>-->
+<!--                                            </ul>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <div class="col-sm-6 col-lg-3">-->
+<!--                                    <div class="zmovo-ft-widget">-->
+<!--                                        <div class="zmovo-ft-widget-titles">-->
+<!--                                            <h2 class="zmovo-ft-widget-title">Newsletter</h2>-->
+<!--                                        </div>-->
+<!--                                        <div class="zmoto-ft-widget-contetn">-->
+<!--                                            <div class="zmovo-ft-newsletter">-->
+<!--                                                <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anytg embarrassing hidden.</p>-->
+<!--                                                <div class="zmovo-ft-newsletter-area pt-30">-->
+<!--                                                    <div class="zmovo-ft-newsletter">-->
+<!--                                                        <input type="text" class="form-control" placeholder="Enter Address">-->
+<!--                                                        <button type="submit"><span class="fa fa-paper-plane"></span></button>-->
+<!--                                                    </div>-->
+<!--                                                </div>-->
+<!--                                            </div>-->
+<!--                                            <div class="zmovo-ft-social-widget pt-50">-->
+<!--                                                <ul>-->
+<!--                                                    <li><a href=""><span class="fa fa-facebook"></span></a></li>-->
+<!--                                                    <li><a href=""><span class="fa fa-twitter"></span></a></li>-->
+<!--                                                    <li><a href=""><span class="fa fa-linkedin"></span></a></li>-->
+<!--                                                    <li><a href=""><span class="fa fa-youtube"></span></a></li>-->
+<!--                                                    <li><a href=""><span class="fa fa-instagram"></span></a></li>-->
+<!--                                                </ul>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="zmovo-footer-buttom">-->
+<!--                <div class="container">-->
+<!--                    <div class="row">-->
+<!--                        <div class="col-sm-5 col-lg-6">-->
+<!--                            <div class="zmovo-ft-menu">-->
+<!--                                <ul>-->
+<!--                                    <li><a href="">Terms</a></li>-->
+<!--                                    <li><a href="">Privacy</a></li>-->
+<!--                                    <li><a href="">About</a></li>-->
+<!--                                    <li><a href="">Our Ads</a></li>-->
+<!--                                </ul>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="col-sm-7 col-lg-6">-->
+<!--                            <div class="zmovo-ft-copyright">-->
+<!--                                <p>CopyRight 2019 Develop by <a href="" class="c1">Themepul</a> . All Rights <a href="http://www.bootstrapmb.com/" title="bootstrapmb">Reserved</a>.</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </footer>-->
+        <!-- END FOOTER -->
+        <div class="to-top" id="back-top">
+            <i class="fa fa-angle-up"></i>
+        </div>
+                <br/>
+                <br/>
+                <br/>
+
+            </div>
+    <script src="assets/vendor/modernizr-3.5.0.js"></script>
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/video/video.popup.js"></script>
+    <script src="assets/bootstrap-4.2.1/bootstrap.min.js"></script>
+    <script src="assets/owlcarousel/owl.carousel.min.js"></script>
+    <script src="assets/menu/menumaker.js"></script>
+    <script src="assets/slick/swiper.min.js"></script>
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="assets/js/main.js"></script>
+            <script src="assets/js/translater.js" type="text/javascript"></script>
+            <script type="text/javascript">
+
+                $('#toZH').click((el) => {
+                    var tran = new Translater({
+                        lang:"zh"
+                    });
+                });
+                $('#toFR').click((el) => {
+                    var tran = new Translater({
+                        lang:"fr"
+                    });
+                });
+                $('#toEN').click((el) => {
+                    var tran = new Translater({
+                        lang:"en"
+                    });
+                });
+            </script>
+            <script type="text/javascript">
+                var tran = new Translater();
+                if (tran.getLang() === "default") tran.setLang('en');
+            </script>
+        {% endif %}
+</body>
+
+</html>
