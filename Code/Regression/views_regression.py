@@ -6,6 +6,7 @@ from yellowbrick.regressor import PredictionError
 from sklearn.linear_model import Ridge
 from yellowbrick.regressor import ResidualsPlot
 from sklearn.metrics import mean_squared_error
+from sklearn.ensemble import RandomForestRegressor
 
 regr = linear_model.LinearRegression()
 
@@ -37,3 +38,11 @@ k = visualizer.poof()
 print('MSE: ' + str(mean_squared_error(target_test, regr.predict(train_test))))
 print('MSE(Calculate MSE according to the formula): ' + str(np.mean((regr.predict(train_test) - target_test)**2)))
 print('RMSE:', str(np.sqrt(mean_squared_error(target_test, regr.predict(train_test)))))
+
+
+rfr = RandomForestRegressor(max_features=3, random_state=0, n_estimators=100)
+rfr.fit(train, target)
+print("\n")
+print('MSE: ' + str(mean_squared_error(target_test, rfr.predict(train_test))))
+print('MSE(Calculate MSE according to the formula): ' + str(np.mean((rfr.predict(train_test) - target_test)**2)))
+print('RMSE:', str(np.sqrt(mean_squared_error(target_test, rfr.predict(train_test)))))
