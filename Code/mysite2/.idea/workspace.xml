@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="538f39ce-fae4-458f-b29d-1f5b433c0022" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/templates/polls/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/polls/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/templates/polls/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/polls/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/templates/polls/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/polls/index-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/templates/polls/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/polls/index-4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/templates/polls/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/polls/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/templates/polls/trailor.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/polls/trailor.html" afterDir="false" />
-    </list>
+    <list default="true" id="538f39ce-fae4-458f-b29d-1f5b433c0022" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +75,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/polls/templates/polls/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
+            <state relative-caret-position="-6083">
               <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
             </state>
           </provider>
@@ -130,19 +122,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
               <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysite/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2310">
-              <caret line="123" selection-start-line="123" selection-end-line="123" />
-              <folding>
-                <element signature="e#0#303#1" />
-                <element signature="e#461#523#0" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -339,7 +318,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://9bfa9775-3865-44ce-9a96-708b3d11cf77/schema/main/table/django_session" />
     <entry file="das://9bfa9775-3865-44ce-9a96-708b3d11cf77/schema/main/table/django_migrations" />
     <entry file="das://9bfa9775-3865-44ce-9a96-708b3d11cf77/schema/main/table/polls_question" />
     <entry file="das://9bfa9775-3865-44ce-9a96-708b3d11cf77/schema/main/table/polls_choice" />
@@ -523,9 +501,12 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../../1/about.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/polls/templates/polls/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
+        <state relative-caret-position="-6083">
           <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
         </state>
       </provider>
