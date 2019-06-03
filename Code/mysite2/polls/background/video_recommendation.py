@@ -10,7 +10,11 @@ def video_recommendation(input_tag):
     pd.set_option('display.max_rows', None)
     pd.set_option('display.width', 100)
 
+<<<<<<< Updated upstream
     movies = pd.io.parsers.read_csv('/Users/zuimeihon/Desktop/TEDTalksDataMining/Code/mysite2/polls/background/ted_main.csv')
+=======
+    movies = pd.io.parsers.read_csv('/Users/houqinhan/TEDTalksDataMining/TEDTalksDataMining/Data/ted_main.csv')
+>>>>>>> Stashed changes
     tfidf = TfidfVectorizer(max_df=0.8, stop_words='english')
     movies['tags'] = movies['tags'].fillna('')
     movieList = movies['tags'].tolist()

@@ -25,7 +25,7 @@ tags_list = TEDTalks['tags'].to_list()
 videos = {'title': title_list, 'views': view_list, 'comments': comment_list, 'tags': tags_list, 'cluster': clusters}
 frame = pd.DataFrame(videos, index=[clusters], columns=['title', 'views', 'comments', 'tags', 'cluster'])
 print(frame['cluster'].value_counts())
-print(frame)
+# print(frame)
 
 # fig = plt.figure(1, figsize=(20, 20))
 # colors = ['b', 'g', 'r', 'c', 'm', 'y', 'k', 'w']
@@ -33,12 +33,12 @@ print(frame)
 # ax1 = fig.add_subplot(111)
 # for index in range
 
-X = frame[['views', 'comments']]
-plt.scatter(x = X.iloc[:,0], y = X.iloc[:,1], c = km.labels_, s=50, cmap='rainbow')
-plt.xlabel('views')
-plt.ylabel('comments')
-plt.axis([0, 3e6, 0, 300])
-plt.show()
+# X = frame[['views', 'comments']]
+# plt.scatter(x = X.iloc[:,0], y = X.iloc[:,1], c = km.labels_, s=50, cmap='rainbow')
+# plt.xlabel('views')
+# plt.ylabel('comments')
+# plt.axis([0, 3e6, 0, 300])
+# plt.show()
 
 
 

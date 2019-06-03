@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7837e72-6085-48c6-8261-8900d3f1977b" name="Default Changelist" comment="" />
+    <list default="true" id="e7837e72-6085-48c6-8261-8900d3f1977b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Code/Classification/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Classification/views_classification.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/get_hist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/Recommandation/GetRecommendationModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Recommandation/GetRecommendationModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/Recommandation/RecommendationReadFromModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Recommandation/RecommendationReadFromModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/Regression/views_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Regression/views_regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/mysite2/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/mysite2/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/mysite2/polls/background/video_recommendation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/mysite2/polls/background/video_recommendation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/model_cluster.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/Data/model_cluster.pkl" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,18 +21,80 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/TEDTalksDataMining$recommendation.coverage" NAME="recommendation Coverage Results" MODIFIED="1558942976353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code/Recommandation" />
+    <SUITE FILE_PATH="coverage/TEDTalksDataMining$manage.coverage" NAME="manage Coverage Results" MODIFIED="1559130268336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code/mysite2" />
+    <SUITE FILE_PATH="coverage/TEDTalksDataMining$views_classification.coverage" NAME="views_classification Coverage Results" MODIFIED="1559596271256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code/Classification" />
     <SUITE FILE_PATH="coverage/TEDTalksDataMining$video_recommendation.coverage" NAME="video_recommendation Coverage Results" MODIFIED="1558951806576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code/Recommandation" />
-    <SUITE FILE_PATH="coverage/TEDTalksDataMining$views_regression.coverage" NAME="views_regression Coverage Results" MODIFIED="1559125023088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code/Regression" />
+    <SUITE FILE_PATH="coverage/TEDTalksDataMining$RecommendationReadFromModel.coverage" NAME="RecommendationReadFromModel Coverage Results" MODIFIED="1559576373762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code/Recommandation" />
+    <SUITE FILE_PATH="coverage/TEDTalksDataMining$views_regression.coverage" NAME="views_regression Coverage Results" MODIFIED="1559569105287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code/Regression" />
     <SUITE FILE_PATH="coverage/TEDTalksDataMining$Transcriptes.coverage" NAME="Transcriptes Coverage Results" MODIFIED="1558939998074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code/Recommandation" />
-    <SUITE FILE_PATH="coverage/TEDTalksDataMining$GetRecommendationModel.coverage" NAME="GetRecommendationModel Coverage Results" MODIFIED="1558949034256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code/Recommandation" />
+    <SUITE FILE_PATH="coverage/TEDTalksDataMining$GetRecommendationModel.coverage" NAME="GetRecommendationModel Coverage Results" MODIFIED="1559576305977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code/Recommandation" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< Updated upstream
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Code/Regression/views_regression.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
               <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Code/Regression/views_regression.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="44" selection-start-line="44" selection-end-line="52" selection-end-column="63" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
+>>>>>>> Stashed changes
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Code/Classification/views_classification.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Code/Recommandation/RecommendationReadFromModel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Code/Recommandation/GetRecommendationModel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="30" selection-start-line="30" selection-end-line="30" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Code/get_hist.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -29,8 +102,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Code/Recommandation/video_recommendation.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="105">
               <caret line="7" selection-start-line="7" selection-end-line="11" selection-end-column="111" />
+=======
+            <state relative-caret-position="420">
+              <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+>>>>>>> Stashed changes
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Code/Recommandation/Transcriptes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="65">
+              <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,16 +154,28 @@
       <list>
         <option value="$PROJECT_DIR$/Code/Recommandation/Transcriptes.py" />
         <option value="$PROJECT_DIR$/Code/Recommandation/recommendation.py" />
-        <option value="$PROJECT_DIR$/Code/Recommandation/GetRecommendationModel.py" />
         <option value="$PROJECT_DIR$/Code/Recommandation/video_recommendation.py" />
         <option value="$PROJECT_DIR$/Code/load_dataset.py" />
+        <option value="$PROJECT_DIR$/Code/mysite2/polls/background/video_recommendation.py" />
+        <option value="$PROJECT_DIR$/Code/mysite2/manage.py" />
         <option value="$PROJECT_DIR$/Code/Regression/views_regression.py" />
+        <option value="$PROJECT_DIR$/Code/Classification/ViewsClassification.py" />
+        <option value="$PROJECT_DIR$/Code/Recommandation/GetRecommendationModel.py" />
+        <option value="$PROJECT_DIR$/Code/Recommandation/RecommendationReadFromModel.py" />
+        <option value="$PROJECT_DIR$/Code/get_hist.py" />
+        <option value="$PROJECT_DIR$/Code/Classification/views_classification.py" />
       </list>
     </option>
   </component>
+<<<<<<< Updated upstream
   <component name="ProjectFrameBounds">
     <option name="x" value="47" />
     <option name="y" value="22" />
+=======
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="14" />
+    <option name="y" value="23" />
+>>>>>>> Stashed changes
     <option name="width" value="1440" />
     <option name="height" value="702" />
   </component>
@@ -90,6 +195,24 @@
               <item name="TEDTalksDataMining" type="b2602c69:ProjectViewProjectNode" />
               <item name="TEDTalksDataMining" type="462c0819:PsiDirectoryNode" />
               <item name="Code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TEDTalksDataMining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TEDTalksDataMining" type="462c0819:PsiDirectoryNode" />
+              <item name="Code" type="462c0819:PsiDirectoryNode" />
+              <item name="Classification" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TEDTalksDataMining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TEDTalksDataMining" type="462c0819:PsiDirectoryNode" />
+              <item name="Code" type="462c0819:PsiDirectoryNode" />
+              <item name="data_analysis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TEDTalksDataMining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TEDTalksDataMining" type="462c0819:PsiDirectoryNode" />
+              <item name="Code" type="462c0819:PsiDirectoryNode" />
+              <item name="LearningCode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TEDTalksDataMining" type="b2602c69:ProjectViewProjectNode" />
@@ -130,7 +253,11 @@
       </list>
     </option>
   </component>
+<<<<<<< Updated upstream
   <component name="RunManager">
+=======
+  <component name="RunManager" selected="Python.views_classification">
+>>>>>>> Stashed changes
     <configuration name="GetRecommendationModel" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TEDTalksDataMining" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -153,7 +280,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Transcriptes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="RecommendationReadFromModel" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TEDTalksDataMining" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -166,7 +293,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Code/Recommandation/Transcriptes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Code/Recommandation/RecommendationReadFromModel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,7 +302,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="recommendation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TEDTalksDataMining" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -183,12 +310,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Code/Recommandation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Code/mysite2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Code/Recommandation/recommendation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Code/mysite2/manage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -197,7 +324,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="video_recommendation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="views_classification" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TEDTalksDataMining" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -205,12 +332,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Code/Recommandation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Code/Classification" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Code/Recommandation/video_recommendation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Code/Classification/views_classification.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -241,6 +368,18 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< Updated upstream
+=======
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.views_classification" />
+        <item itemvalue="Python.RecommendationReadFromModel" />
+        <item itemvalue="Python.GetRecommendationModel" />
+        <item itemvalue="Python.views_regression" />
+        <item itemvalue="Python.manage" />
+      </list>
+    </recent_temporary>
+>>>>>>> Stashed changes
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -252,12 +391,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558681679665</updated>
+<<<<<<< Updated upstream
       <workItem from="1558681681000" duration="17387000" />
       <workItem from="1559130229777" duration="297000" />
+=======
+      <workItem from="1558681681000" duration="24466000" />
+      <workItem from="1559564494957" duration="5080000" />
+      <workItem from="1559572347275" duration="6595000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="17684000" />
   </component>
   <component name="ToolWindowManager">
@@ -265,23 +411,32 @@
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.14940098" />
+=======
+    <option name="totallyTimeSpent" value="36141000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24066092" />
+>>>>>>> Stashed changes
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.44942382" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Python Console" order="4" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.31113955" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.30857876" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.39948782" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info active="true" anchor="right" id="SciView" order="2" visible="true" weight="0.26293105" />
+      <window_info anchor="right" id="SciView" order="2" visible="true" weight="0.14367816" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
     </layout>
@@ -290,9 +445,70 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file:///anaconda3/lib/python3.7/site-packages/sklearn/linear_model/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="425" column="8" selection-start-line="425" selection-start-column="8" selection-end-line="425" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/lib/python3.7/site-packages/pyparsing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="5079" selection-start-line="5079" selection-end-line="5079" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/mysite2/mysite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="115" selection-start-line="114" selection-end-line="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/mysite2/mysite/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/mysite2/mysite/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/mysite2/polls/background/video_recommendation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/mysite2/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="21" />
+          <folding>
+            <element signature="e#84#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/mysite2/polls/background/ted_main.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/load_dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Code/Recommandation/Transcriptes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
+        <state relative-caret-position="65">
           <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
@@ -300,16 +516,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Code/Recommandation/GetRecommendationModel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Code/Recommandation/recommendation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
+        <state relative-caret-position="218">
           <caret line="68" selection-start-line="68" selection-end-line="68" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
@@ -317,12 +526,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Code/Recommandation/RecommendationReadFromModel.py">
+    <entry file="file://$PROJECT_DIR$/Code/data_analysis/analyze.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+        <state relative-caret-position="885">
+          <caret line="67" selection-start-line="67" selection-end-line="68" selection-end-column="11" />
           <folding>
-            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/get_hist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -330,6 +549,7 @@
     <entry file="file:///anaconda3/lib/python3.7/site-packages/sklearn/linear_model/base.py" />
     <entry file="file://$PROJECT_DIR$/Code/Regression/views_regression.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="315">
           <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
         </state>
@@ -339,15 +559,58 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" selection-start-line="7" selection-end-line="11" selection-end-column="111" />
+=======
+        <state relative-caret-position="420">
+          <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Code/load_dataset.py">
+    <entry file="file://$PROJECT_DIR$/Code/Recommandation/RecommendationReadFromModel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Code/Recommandation/GetRecommendationModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="30" selection-start-line="30" selection-end-line="30" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< Updated upstream
+=======
+    <entry file="file://$PROJECT_DIR$/Code/Regression/views_regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="44" selection-start-line="44" selection-end-line="52" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/Classification/views_classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> Stashed changes
   </component>
 </project>
