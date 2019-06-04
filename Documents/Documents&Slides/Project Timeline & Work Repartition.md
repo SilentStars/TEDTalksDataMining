@@ -30,7 +30,7 @@
 | :----------------------------------------------------------: | :-----------------------: | :---------: | :------: |
 | Import data and do preliminary processing of the data using Pandas. |        HOU QINHAN         |   2 Days    |    ✅     |
 | Learn to use Scikit & Find the right machine learning algorithm to process the data. | HOU QINHAN & WANG ZHIHANG |   4 Days    |    ✅     |
-|  Write an algorithm program for the corresponding function.  |        HOU QINHAN         | 6 or 7 Days |          |
+|  Write an algorithm program for the corresponding function.  |        HOU QINHAN         | 6 or 7 Days |     🚧     |
 
 #### 3. Build a Web Page Background
 
@@ -43,7 +43,7 @@
 |                            Tasks                             |          Member           |    Time     | Finished |
 | :----------------------------------------------------------: | :-----------------------: | :---------: | :------: |
 | Define the overall structure of the project and how to store the data. | HOU QINHAN & WANG ZHIHANG |   2 Days    |    ✅⚠️    |
-|                Write the necessary database.                 |       WANG ZHIHANG        | 3 or 4 Days |          |
+|                Write the necessary database.                 |       WANG ZHIHANG        | 3 or 4 Days |     ✅     |
 |      Write a background handler and give the interface.      |       WANG ZHIHANG        | 5 or 6 Days |          |
 
 > Risks:
@@ -61,7 +61,7 @@
 |                            Tasks                             |         Member          |    Time     | Finished |
 | :----------------------------------------------------------: | :---------------------: | :---------: | :------: |
 |            Draw the prototype of GUI using Axure.            | WANG YIBO & HOU QINHAN  |   2 Days    |    ✅     |
-|       Learn React & Write user interface using React.        | WANG YIBO & SUI MINGBEN | 5 or 6 Days |          |
+|        Write user interface using .        | WANG YIBO & SUI MINGBEN | 5 or 6 Days |     ✅     |
 | Use interface to request data from background & Make data visualization. | WANG YIBO & SUI MINGBEN | 6 or 7 Days |    ⚠️     |
 
 > Risks:
