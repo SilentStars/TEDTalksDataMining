@@ -245,7 +245,7 @@
                                         <div class="items" id="slider3">
                                             <div class="item">
                                                 <div class="zmovo-slider-contents">
-                                                    <img src="image/slider/3/1.jpeg" alt="">
+                                                    <img src="{% static 'image/slider/3/1.jpeg'%}" alt="">
                                                     <div class="zmovo-slide-content">
                                                         <div class="container">
                                                             <div class="zmovo-slider-contetn">
@@ -261,7 +261,7 @@
                                                                     </ul>
                                                                 </div>
                                                                 <div class="zmovo-slide-ply-btn">
-                                                                    <a href="" data-video-url="https://www.youtube.com/watch?v=CsVJoCKc9rA" class="video-popup"><img src="image/play-button.png" alt="">Play Trailer</a>
+                                                                    <a href="" data-video-url="https://www.youtube.com/watch?v=CsVJoCKc9rA" class="video-popup"><img src="{% static 'image/play-button.png'%}" alt="">Play Trailer</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -270,7 +270,7 @@
                                             </div>
                                             <div class="item">
                                                 <div class="zmovo-slider-contents">
-                                                    <img src="image/slider/3/2.jpeg" alt="">
+                                                    <img src="{% static 'image/slider/3/2.jpeg'%}" alt="">
                                                     <div class="zmovo-slide-content">
                                                         <div class="container">
                                                             <div class="zmovo-slider-contetn">
@@ -286,7 +286,7 @@
                                                                     </ul>
                                                                 </div>
                                                                 <div class="zmovo-slide-ply-btn">
-                                                                    <a href="" data-video-url="https://www.youtube.com/watch?v=CsVJoCKc9rA" class="video-popup"><img src="image/play-button.png" alt="">Play Trailer</a>
+                                                                    <a href="" data-video-url="https://www.youtube.com/watch?v=CsVJoCKc9rA" class="video-popup"><img src="{% static 'image/play-button.png'%}" alt="">Play Trailer</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -569,9 +569,9 @@
                                                     <div class="zmovo-slider-premium-tag">
                                                         <span class="c1-bg">Trailer</span>
                                                     </div>
-                                                    <img src="image/product/banner.jpg" alt="">
+                                                    <img src="{% static 'image/product/banner.jpg'%}" alt="">
                                                     <div class="zmovo-slide-ply-btn text-center">
-                                                        <a href="" data-video-url="https://www.youtube.com/watch?v=CsVJoCKc9rA" class="video-popup"><img src="image/play-button.png" alt=""></a>
+                                                        <a href="" data-video-url="https://www.youtube.com/watch?v=CsVJoCKc9rA" class="video-popup"><img src="{% static 'image/play-button.png'%}" alt=""></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1278,7 +1278,7 @@
             <i class="fa fa-angle-up"></i>
         </div>
         <div class="button pt-50 text-center">
-            <a href="index.html" class="btn btn-radus">Back to home <span class="fa fa-angle-right"></span></a>
+            <a href="{% url 'polls:index' %}" class="btn btn-radus">Back to home <span class="fa fa-angle-right"></span></a>
         </div>
         <br/>
         <br/>

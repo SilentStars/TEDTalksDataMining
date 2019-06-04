@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="538f39ce-fae4-458f-b29d-1f5b433c0022" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../FrontEnd/web/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrontEnd/web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FrontEnd/web/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrontEnd/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../FrontEnd/web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/static/image/product/200x300/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/static/image/product/200x300/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/static/image/product/200x300/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/static/image/product/200x300/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/templates/polls/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/polls/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/templates/polls/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/polls/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/polls/templates/polls/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/polls/index-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/templates/polls/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/polls/index-4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/polls/templates/polls/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/polls/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/templates/polls/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/polls/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/templates/polls/trailor.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/polls/trailor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/registration/login.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,17 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/polls/templates/polls/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1024">
-              <caret line="428" column="5" lean-forward="true" selection-start-line="428" selection-start-column="5" selection-end-line="428" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/polls/templates/polls/about.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-14134">
-              <caret line="571" column="46" lean-forward="true" selection-start-line="571" selection-start-column="46" selection-end-line="571" selection-end-column="46" />
+            <state relative-caret-position="366">
+              <caret line="427" column="5" lean-forward="true" selection-start-line="427" selection-start-column="5" selection-end-line="427" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -78,22 +56,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/polls/templates/polls/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14094">
-              <caret line="765" column="81" selection-start-line="765" selection-start-column="81" selection-end-line="765" selection-end-column="81" />
+            <state relative-caret-position="-682">
+              <caret line="596" column="18" lean-forward="true" selection-start-line="596" selection-start-column="18" selection-end-line="596" selection-end-column="18" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/polls/static/assets/js/map-c.js">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/polls/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/polls/templates/polls/index-3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-24975">
-              <caret line="93" column="84" selection-start-line="93" selection-start-column="84" selection-end-line="93" selection-end-column="84" />
+            <state relative-caret-position="212">
+              <caret line="1282" column="13" lean-forward="true" selection-start-line="1282" selection-start-column="13" selection-end-line="1282" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -101,35 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/polls/templates/polls/index-4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-25817">
+            <state relative-caret-position="324">
               <caret line="140" column="38" selection-start-line="140" selection-start-column="38" selection-end-line="140" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/polls/templates/polls/register.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="159" column="22" lean-forward="true" selection-start-line="159" selection-start-column="22" selection-end-line="159" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/polls/templates/polls/trailor.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="179" column="63" lean-forward="true" selection-start-line="179" selection-start-column="63" selection-end-line="179" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/polls/templates/registration/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="361" column="68" lean-forward="true" selection-start-line="361" selection-start-column="68" selection-end-line="361" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -151,6 +112,8 @@
       <find>base</find>
       <find>popup</find>
       <find>map</find>
+      <find>polls</find>
+      <find>view all</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -169,22 +132,21 @@
         <option value="$PROJECT_DIR$/mysite/urls.py" />
         <option value="$PROJECT_DIR$/polls/views.py" />
         <option value="$PROJECT_DIR$/polls/background/video_recommendation.py" />
-        <option value="$PROJECT_DIR$/polls/templates/polls/index.html" />
-        <option value="$PROJECT_DIR$/polls/templates/polls/index-3.html" />
         <option value="$PROJECT_DIR$/polls/templates/polls/index-4.html" />
         <option value="$PROJECT_DIR$/polls/templates/polls/about.html" />
         <option value="$PROJECT_DIR$/polls/templates/registration/login.html" />
         <option value="$PROJECT_DIR$/polls/templates/polls/contact.html" />
         <option value="$PROJECT_DIR$/polls/templates/polls/trailor.html" />
         <option value="$PROJECT_DIR$/polls/templates/polls/register.html" />
+        <option value="$PROJECT_DIR$/polls/templates/polls/index.html" />
+        <option value="$PROJECT_DIR$/polls/templates/polls/index-3.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="657" />
-    <option name="y" value="108" />
-    <option name="width" value="981" />
-    <option name="height" value="1032" />
+    <option name="y" value="22" />
+    <option name="width" value="1280" />
+    <option name="height" value="695" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -317,7 +279,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32854578" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4995958" visible="true" weight="0.31896552" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4995958" visible="true" weight="0.32068965" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5004042" side_tool="true" weight="0.31914893" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3291367" />
       <window_info anchor="bottom" id="DB Execution Console" order="11" />
@@ -337,7 +299,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://9bfa9775-3865-44ce-9a96-708b3d11cf77/schema/main/table/auth_user" />
     <entry file="das://9bfa9775-3865-44ce-9a96-708b3d11cf77/schema/main/table/auth_group" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/38400fea-fc5c-4af0-8559-05d59c88ab7d/console.sql" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/db/models/base.py" />
@@ -408,16 +369,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/polls/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysite/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -441,16 +392,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../1/about.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polls/background/video_recommendation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="12" column="123" selection-start-line="12" selection-start-column="123" selection-end-line="12" selection-end-column="123" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/polls/background/getUrl.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -481,9 +422,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/polls/static/assets/js/map-c.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/polls/static/image/team/1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -494,52 +432,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/polls/templates/polls/contact.html">
+    <entry file="file://$PROJECT_DIR$/polls/static/assets/js/map-c.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polls/templates/polls/register.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1024">
-          <caret line="428" column="5" lean-forward="true" selection-start-line="428" selection-start-column="5" selection-end-line="428" selection-end-column="5" />
+        <state relative-caret-position="3822">
+          <caret line="182" column="31" selection-start-line="182" selection-start-column="31" selection-end-line="182" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/polls/templates/polls/index-3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24975">
-          <caret line="93" column="84" selection-start-line="93" selection-start-column="84" selection-end-line="93" selection-end-column="84" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/polls/templates/polls/index-4.html">
+    <entry file="file://$PROJECT_DIR$/polls/templates/polls/trailor.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25817">
-          <caret line="140" column="38" selection-start-line="140" selection-start-column="38" selection-end-line="140" selection-end-column="38" />
+        <state relative-caret-position="3759">
+          <caret line="179" column="63" selection-start-line="179" selection-start-column="63" selection-end-line="179" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/polls/templates/registration/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="361" column="68" lean-forward="true" selection-start-line="361" selection-start-column="68" selection-end-line="361" selection-end-column="68" />
+        <state relative-caret-position="7581">
+          <caret line="361" column="68" selection-start-line="361" selection-start-column="68" selection-end-line="361" selection-end-column="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/polls/templates/polls/trailor.html">
+    <entry file="file://$PROJECT_DIR$/polls/background/video_recommendation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="179" column="63" lean-forward="true" selection-start-line="179" selection-start-column="63" selection-end-line="179" selection-end-column="63" />
+        <state relative-caret-position="-45">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polls/templates/polls/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="427" column="5" lean-forward="true" selection-start-line="427" selection-start-column="5" selection-end-line="427" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polls/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/polls/templates/polls/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14094">
-          <caret line="765" column="81" selection-start-line="765" selection-start-column="81" selection-end-line="765" selection-end-column="81" />
+        <state relative-caret-position="-682">
+          <caret line="596" column="18" lean-forward="true" selection-start-line="596" selection-start-column="18" selection-end-line="596" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/polls/templates/polls/register.html">
+    <entry file="file://$PROJECT_DIR$/polls/templates/polls/index-4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="159" column="22" lean-forward="true" selection-start-line="159" selection-start-column="22" selection-end-line="159" selection-end-column="22" />
+        <state relative-caret-position="324">
+          <caret line="140" column="38" selection-start-line="140" selection-start-column="38" selection-end-line="140" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polls/templates/polls/index-3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="1282" column="13" lean-forward="true" selection-start-line="1282" selection-start-column="13" selection-end-line="1282" selection-end-column="13" />
         </state>
       </provider>
     </entry>
