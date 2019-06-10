@@ -5,9 +5,12 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/polls/background/video_recommendation.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/background/video_recommendation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -33,6 +36,9 @@
       <change beforePath="$PROJECT_DIR$/polls/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/views.py" afterDir="false" />
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -95,6 +101,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -216,6 +223,9 @@
 =======
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
 >>>>>>> Stashed changes
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+>>>>>>> Stashed changes
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -251,9 +261,12 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/polls/views.py" />
         <option value="$PROJECT_DIR$/polls/background/video_recommendation.py" />
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -269,9 +282,12 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/polls/templates/polls/index.html" />
         <option value="$PROJECT_DIR$/polls/templates/polls/index-3.html" />
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -284,6 +300,9 @@
         <option value="$PROJECT_DIR$/polls/views.py" />
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -362,7 +381,11 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../实训/mysite2" />
+=======
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/visualization" />
+>>>>>>> Stashed changes
 =======
     <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/visualization" />
 >>>>>>> Stashed changes
@@ -442,6 +465,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <workItem from="1560201347136" duration="231000" />
       <workItem from="1560201595799" duration="447000" />
 =======
@@ -456,10 +480,15 @@
       <workItem from="1559633412518" duration="5138000" />
       <workItem from="1560155874127" duration="16910000" />
 >>>>>>> Stashed changes
+=======
+      <workItem from="1559633412518" duration="5138000" />
+      <workItem from="1560155874127" duration="17312000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -472,6 +501,9 @@
 >>>>>>> Stashed changes
 =======
     <option name="totallyTimeSpent" value="87362000" />
+>>>>>>> Stashed changes
+=======
+    <option name="totallyTimeSpent" value="87764000" />
 >>>>>>> Stashed changes
   </component>
   <component name="TodoView">
@@ -486,6 +518,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <layout>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -498,6 +531,10 @@
 >>>>>>> Stashed changes
 =======
     <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19078416" />
+>>>>>>> Stashed changes
+=======
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19078416" />
 >>>>>>> Stashed changes
@@ -515,7 +552,11 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4995958" visible="true" weight="0.3197158" />
+=======
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4995958" visible="true" weight="0.3179396" />
+>>>>>>> Stashed changes
 =======
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4995958" visible="true" weight="0.3179396" />
 >>>>>>> Stashed changes
@@ -578,6 +619,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <entry file="das://9bfa9775-3865-44ce-9a96-708b3d11cf77/schema/main/table/auth_group" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/38400fea-fc5c-4af0-8559-05d59c88ab7d/console.sql" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/db/models/base.py" />
@@ -586,6 +628,8 @@
     <entry file="file://$PROJECT_DIR$/polls/templates/polls/detail.html" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/core/handlers/base.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/urllib3/connection.py" />
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -645,6 +689,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/polls/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -652,6 +697,8 @@
           <folding>
             <element signature="e#0#54#0" expanded="true" />
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -683,6 +730,9 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -692,6 +742,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
           <caret line="428" column="5" selection-start-line="428" selection-start-column="5" selection-end-line="428" selection-end-column="5" />
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 =======
@@ -740,11 +791,31 @@
 <<<<<<< Updated upstream
 >>>>>>> Stashed changes
 =======
+>>>>>>> Stashed changes
+=======
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polls/templates/polls/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="571" column="46" lean-forward="true" selection-start-line="571" selection-start-column="46" selection-end-line="571" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polls/templates/polls/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="765" column="81" selection-start-line="765" selection-start-column="81" selection-end-line="765" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
 >>>>>>> Stashed changes
     <entry file="file://$PROJECT_DIR$/polls/static/assets/js/map-c.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/polls/templates/polls/index-3.html">
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 =======
@@ -817,6 +888,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/polls/background/mockRecommendation.py">
       <provider selected="true" editor-type-id="text-editor">
+=======
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="93" column="84" selection-start-line="93" selection-start-column="84" selection-end-line="93" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polls/templates/polls/index-4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="140" column="38" selection-start-line="140" selection-start-column="38" selection-end-line="140" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polls/templates/polls/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="159" column="22" lean-forward="true" selection-start-line="159" selection-start-column="22" selection-end-line="159" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polls/templates/polls/trailor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="179" column="63" selection-start-line="179" selection-start-column="63" selection-end-line="179" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://0997de53-2c2c-4ede-aacc-a5bb96cbca00/schema/main/table/polls_movie">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="09d2f8bd-2904-4090-8162-311794258ec9">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polls/background/ted_main.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polls/background/mockRecommendation.py">
+      <provider selected="true" editor-type-id="text-editor">
+>>>>>>> Stashed changes
         <state>
           <folding>
             <element signature="e#0#19#0" expanded="true" />
@@ -839,6 +953,7 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/wsgiref/simple_server.py">
+<<<<<<< Updated upstream
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
           <caret line="34" selection-start-line="34" selection-end-line="34" />
@@ -988,11 +1103,21 @@
       </provider>
     </entry>
     <entry file="das://0997de53-2c2c-4ede-aacc-a5bb96cbca00/schema/main/table/polls_user">
+=======
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://7b56a5c6-495b-4546-9c4a-ffce282497cc/schema/main/table/polls_user_groups">
+>>>>>>> Stashed changes
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state projectRestartId="8fca4845-1200-4507-ba95-8a65fb0b43ad">
           <filtering>
             <filter text="" />
           </filtering>
+<<<<<<< Updated upstream
         </state>
       </provider>
     </entry>
@@ -1084,10 +1209,57 @@
           <folding>
             <element signature="e#0#25#0" expanded="true" />
 >>>>>>> Stashed changes
+=======
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c9300cb2-0334-4ba9-b805-383be41502b0/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://7b56a5c6-495b-4546-9c4a-ffce282497cc/schema/main/table/polls_movie">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="8fca4845-1200-4507-ba95-8a65fb0b43ad">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polls/templates/registration/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="171" column="71" lean-forward="true" selection-start-line="171" selection-start-column="71" selection-end-line="171" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polls/background/tagManage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://0997de53-2c2c-4ede-aacc-a5bb96cbca00/schema/main/table/polls_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="8fca4845-1200-4507-ba95-8a65fb0b43ad">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polls/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="das://7b56a5c6-495b-4546-9c4a-ffce282497cc/schema/main/table/polls_user">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state projectRestartId="8fca4845-1200-4507-ba95-8a65fb0b43ad">
@@ -1108,10 +1280,19 @@
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+    <entry file="file://$PROJECT_DIR$/polls/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/mysite/settings.py">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< Updated upstream
@@ -1125,11 +1306,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
           <caret line="433" selection-start-line="433" selection-end-line="433" />
+=======
+    <entry file="das://7b56a5c6-495b-4546-9c4a-ffce282497cc/schema/main/table/polls_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="8fca4845-1200-4507-ba95-8a65fb0b43ad">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polls/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="125" column="24" selection-start-line="125" selection-start-column="24" selection-end-line="125" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#303#1" />
+            <element signature="e#461#523#0" />
+          </folding>
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/polls/background/video_recommendation.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="26">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
 =======
@@ -1166,6 +1377,13 @@
             <element signature="e#0#19#0" expanded="true" />
           </folding>
 =======
+>>>>>>> Stashed changes
+=======
+        <state relative-caret-position="-47">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
 >>>>>>> Stashed changes
         </state>
       </provider>
