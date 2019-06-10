@@ -73,51 +73,6 @@
                                             </li>
                                             <li><a href="{% url 'polls:data' %}">Data<!--{zh}数据--><!--{en}Data--><!--{fr}Les données--></a></li>
                                             <li><a href="{% url 'polls:about' %}">About<!--{zh}关于--><!--{en}About--><!--{fr}sur--></a></li>
-<!--                                            <li class="has-sub"><span class="submenu-button"></span><a href="index.html">Product</a>-->
-<!--                                                <ul>-->
-<!--                                                    <li class="has-sub"><span class="submenu-button"></span><a href="#">Grid view</a>-->
-<!--                                                        <ul>-->
-<!--                                                            <li><a href="grid.html">4 column</a></li>-->
-<!--                                                            <li><a href="grid-left.html">Left Side</a></li>-->
-<!--                                                            <li><a href="grid-right.html">Right Side</a></li>-->
-<!--                                                        </ul>-->
-<!--                                                    </li>-->
-<!--                                                    <li class="has-sub"><span class="submenu-button"></span><a href="#">List view</a>-->
-<!--                                                        <ul>-->
-<!--                                                            <li><a href="list.html">one column</a></li>-->
-<!--                                                            <li><a href="list-left.html">Left Side</a></li>-->
-<!--                                                            <li><a href="list-right.html">Right Side</a></li>-->
-<!--                                                        </ul>-->
-<!--                                                    </li>-->
-<!--                                                    <li><a href="product-single.html">Single Product</a></li>-->
-<!--                                                </ul>-->
-<!--                                            </li>-->
-<!--                                            <li class="has-sub"><span class="submenu-button"></span><a href="index.html">Page</a>-->
-<!--                                                <ul>-->
-<!--                                                    <li class="has-sub"><span class="submenu-button"></span><a href="#">Login</a>-->
-<!--                                                        <ul>-->
-<!--                                                            <li><a href="login.html">Login</a></li>-->
-<!--                                                            <li><a href="ragister.html">Register</a></li>-->
-<!--                                                        </ul>-->
-<!--                                                    </li>-->
-<!--                                                </ul>-->
-<!--                                            </li>-->
-<!--                                            <li class="has-sub"><span class="submenu-button"></span><a href="#">blog</a>-->
-<!--                                                <ul>-->
-<!--                                                    <li class="has-sub"><span class="submenu-button"></span><a href="#">Blog Page</a>-->
-<!--                                                        <ul>-->
-<!--                                                            <li><a href="blog.html">Blog Left</a></li>-->
-<!--                                                            <li><a href="blog-2.html">Blog Right</a></li>-->
-<!--                                                        </ul>-->
-<!--                                                    </li>-->
-<!--                                                    <li class="has-sub"><span class="submenu-button"></span><a href="#">Blog Single</a>-->
-<!--                                                        <ul>-->
-<!--                                                            <li><a href="blog-details.html">Blog Single 1</a></li>-->
-<!--                                                            <li><a href="blog-details-2.html">Blog Single 2</a></li>-->
-<!--                                                        </ul>-->
-<!--                                                    </li>-->
-<!--                                                </ul>-->
-<!--                                            </li>-->
                                             <li><a href="{% url 'polls:contact' %}">Contact Us<!--{zh}联系我们--><!--{en}Contact Us--><!--{fr}Nous contacter--></a></li>
                                             <li class="active has-sub"><span class="submenu-button"></span><a >Language<!--{zh}语言--><!--{en}Language--><!--{fr}Langue--></a>
                                                 <ul>
@@ -141,8 +96,13 @@
                                 </div>
                             </div>
                             <div class="zmovo-login">
-                                <a href="{% url 'login' %}" class="btn login-btn"><span class="fa fa-user"></span> Login<!--{zh}登录--><!--{en}Login--><!--{fr}Connexion--></a>
-                                <a href="{% url 'polls:signup' %}" class="btn login-btn"><span class="fa fa-user"></span> Signup<!--{zh}注册--><!--{en}Signup--><!--{fr}Singnup--></a>
+                                {% if user.is_authenticated %}
+                                    <p>你已登录，欢迎你：<a href="#">{{ user.username }}</a></p>
+                                    <button class="btn btn-default"><a href="{% url 'logout' %}">注销登录</a></button>
+                                {% else %}
+                                    <a href="{% url 'login' %}" class="btn login-btn"><span class="fa fa-user"></span> Login<!--{zh}登录--><!--{en}Login--><!--{fr}Connexion--></a>
+                                    <a href="{% url 'polls:signup' %}" class="btn login-btn"><span class="fa fa-user"></span> Signup<!--{zh}注册--><!--{en}Signup--><!--{fr}Singnup--></a>
+                                {% endif %}
                             </div>
                         </div>
                     </div>
@@ -167,7 +127,7 @@
                     <div class="row">
                         <div class="offset-lg-4 col-lg-4">
                             <div class="zmovo-page-login mt-50">
-                                <form action="{% url 'login' %}">
+                                <form action="{% url 'login' %}" method="post">
                                     {% csrf_token %}
                                     <div class="zmovo-login-input-top">
                                         <div class="form-group">
@@ -200,150 +160,7 @@
                 </div>
             </div>
         </div>
-        <!-- FOOTER -->
-<!--        <footer class="zmovo-footer-area pt-50">-->
-<!--            <div class="zmovo-footer">-->
-<!--                <div class="container">-->
-<!--                    <div class="zmovo-footer-top">-->
-<!--                        <div class="row">-->
-<!--                            <div class="col-sm-3 col-lg-3">-->
-<!--                                <div class="zmoto-instagram-post gradient1">-->
-<!--                                    <img src="image/instagram/1.jpg" alt="">-->
-<!--                                    <a href="" class="zmoto-instagram-icon"><span class="fa fa-instagram"></span></a>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <div class="col-sm-3 col-lg-3">-->
-<!--                                <div class="zmoto-instagram-post gradient1">-->
-<!--                                    <img src="image/instagram/2.jpg" alt="">-->
-<!--                                    <a href="" class="zmoto-instagram-icon"><span class="fa fa-instagram"></span></a>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <div class="col-sm-3 col-lg-3">-->
-<!--                                <div class="zmoto-instagram-post gradient1">-->
-<!--                                    <img src="image/instagram/3.jpg" alt="">-->
-<!--                                    <a href="" class="zmoto-instagram-icon"><span class="fa fa-instagram"></span></a>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <div class="col-sm-3 col-lg-3">-->
-<!--                                <div class="zmoto-instagram-post gradient1">-->
-<!--                                    <img src="image/instagram/4.jpg" alt="">-->
-<!--                                    <a href="" class="zmoto-instagram-icon"><span class="fa fa-instagram"></span></a>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="zmovo-footer-center pt-50">-->
-<!--                        <div class="zmovo-ft-widgets">-->
-<!--                            <div class="row">-->
-<!--                                <div class="col-sm-6 col-lg-3">-->
-<!--                                    <div class="zmovo-ft-widget">-->
-<!--                                        <div class="zmovo-ft-widget-titles">-->
-<!--                                            <h2 class="zmovo-ft-widget-title">Movies Category</h2>-->
-<!--                                        </div>-->
-<!--                                        <div class="zmoto-ft-widget-contetn">-->
-<!--                                            <ul>-->
-<!--                                                <li><a href="">Movies</a></li>-->
-<!--                                                <li><a href="">Videos</a></li>-->
-<!--                                                <li><a href="">English Movies</a></li>-->
-<!--                                                <li><a href="">China Movies</a></li>-->
-<!--                                                <li><a href="">Tailor</a></li>-->
-<!--                                                <li><a href="">Upcoming Movies</a></li>-->
-<!--                                                <li><a href="">Contact Us</a></li>-->
-<!--                                            </ul>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                                <div class="col-sm-6 col-lg-3">-->
-<!--                                    <div class="zmovo-ft-widget">-->
-<!--                                        <div class="zmovo-ft-widget-titles no-text">-->
-<!--                                            <h2 class="zmovo-ft-widget-title">information</h2>-->
-<!--                                        </div>-->
-<!--                                        <div class="zmoto-ft-widget-contetn">-->
-<!--                                            <ul>-->
-<!--                                                <li><a href="">About Us</a></li>-->
-<!--                                                <li><a href="">Song</a></li>-->
-<!--                                                <li><a href="">Forums</a></li>-->
-<!--                                                <li><a href="">Place</a></li>-->
-<!--                                                <li><a href="">Hot Collection</a></li>-->
-<!--                                                <li><a href="">Upcoming Events</a></li>-->
-<!--                                                <li><a href="">All Movies</a></li>-->
-<!--                                            </ul>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                                <div class="col-sm-6 col-lg-3">-->
-<!--                                    <div class="zmovo-ft-widget">-->
-<!--                                        <div class="zmovo-ft-widget-titles no-text">-->
-<!--                                            <h2 class="zmovo-ft-widget-title">Locations</h2>-->
-<!--                                        </div>-->
-<!--                                        <div class="zmoto-ft-widget-contetn">-->
-<!--                                            <ul>-->
-<!--                                                <li><a href="">South Korea</a></li>-->
-<!--                                                <li><a href="">Germany</a></li>-->
-<!--                                                <li><a href="">United States</a></li>-->
-<!--                                                <li><a href="">France</a></li>-->
-<!--                                                <li><a href="">India</a></li>-->
-<!--                                                <li><a href="">New Movies</a></li>-->
-<!--                                                <li><a href="">United Kingdom</a></li>-->
-<!--                                            </ul>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                                <div class="col-sm-6 col-lg-3">-->
-<!--                                    <div class="zmovo-ft-widget">-->
-<!--                                        <div class="zmovo-ft-widget-titles">-->
-<!--                                            <h2 class="zmovo-ft-widget-title">Newsletter</h2>-->
-<!--                                        </div>-->
-<!--                                        <div class="zmoto-ft-widget-contetn">-->
-<!--                                            <div class="zmovo-ft-newsletter">-->
-<!--                                                <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anytg embarrassing hidden.</p>-->
-<!--                                                <div class="zmovo-ft-newsletter-area pt-30">-->
-<!--                                                    <div class="zmovo-ft-newsletter">-->
-<!--                                                        <input type="text" class="form-control" placeholder="Enter Address">-->
-<!--                                                        <button type="submit"><span class="fa fa-paper-plane"></span></button>-->
-<!--                                                    </div>-->
-<!--                                                </div>-->
-<!--                                            </div>-->
-<!--                                            <div class="zmovo-ft-social-widget pt-50">-->
-<!--                                                <ul>-->
-<!--                                                    <li><a href=""><span class="fa fa-facebook"></span></a></li>-->
-<!--                                                    <li><a href=""><span class="fa fa-twitter"></span></a></li>-->
-<!--                                                    <li><a href=""><span class="fa fa-linkedin"></span></a></li>-->
-<!--                                                    <li><a href=""><span class="fa fa-youtube"></span></a></li>-->
-<!--                                                    <li><a href=""><span class="fa fa-instagram"></span></a></li>-->
-<!--                                                </ul>-->
-<!--                                            </div>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="zmovo-footer-buttom">-->
-<!--                <div class="container">-->
-<!--                    <div class="row">-->
-<!--                        <div class="col-sm-5 col-lg-6">-->
-<!--                            <div class="zmovo-ft-menu">-->
-<!--                                <ul>-->
-<!--                                    <li><a href="">Terms</a></li>-->
-<!--                                    <li><a href="">Privacy</a></li>-->
-<!--                                    <li><a href="">About</a></li>-->
-<!--                                    <li><a href="">Our Ads</a></li>-->
-<!--                                </ul>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="col-sm-7 col-lg-6">-->
-<!--                            <div class="zmovo-ft-copyright">-->
-<!--                                <p>CopyRight 2019 Develop by <a href="" class="c1">Themepul</a> . All Rights <a href="http://www.bootstrapmb.com/" title="bootstrapmb">Reserved</a>.</p>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </footer>-->
-        <!-- END FOOTER -->
+
         <div class="to-top" id="back-top">
             <i class="fa fa-angle-up"></i>
         </div>

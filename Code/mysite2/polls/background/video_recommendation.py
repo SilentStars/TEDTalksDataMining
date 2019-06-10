@@ -1,4 +1,5 @@
 import pandas as pd
+import random
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
 
@@ -9,7 +10,7 @@ def video_recommendation(input_tag):
     pd.set_option('display.max_rows', None)
     pd.set_option('display.width', 100)
 
-    movies = pd.io.parsers.read_csv('/Users/zuimeihon/Desktop/TEDTalksDataMining/Code/mysite2/polls/background/ted_main.csv')
+    movies = pd.io.parsers.read_csv('C:/Users/w/a1/ted_main.csv')
     tfidf = TfidfVectorizer(max_df=0.8, stop_words='english')
     movies['tags'] = movies['tags'].fillna('')
     movieList = movies['tags'].tolist()
@@ -30,9 +31,19 @@ def video_recommendation(input_tag):
     cosine_sim = linear_kernel(tfidf_matrix, tfidf_matrix)
     sim_scores = list(enumerate(cosine_sim[-1]))
     sim_scores = sorted(sim_scores, key=lambda x: x[1], reverse=True)
-    sim_scores = sim_scores[1:2]
+    a = random.randint(2,10)
+    sim_scores = sim_scores[a:a+1]
     movie_indices = [i[0]for i in sim_scores]
-    result = movies['url'].iloc[movie_indices].tolist()
-    return result[0]
 
+    result = movies['url'].iloc[movie_indices].tolist()
+    result2 = movies['tags'].iloc[movie_indices].tolist()
+
+    result3 = result2[0].replace("[", "")
+    result4 = result3.replace("'", "")
+    result5 = result4.replace("]", "")
+    result6 = result5.replace(", ", ",")
+    result7 = result6.split(',')
+    print(result7)
+    print("下一个视频的tag<-")
+    return result[0], result7 #return7 是一个list
 

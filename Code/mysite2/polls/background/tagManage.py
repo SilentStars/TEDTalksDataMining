@@ -25,9 +25,5 @@ def delete(people_tag, tag):
                 flag = 1
         if flag == 1:
             la.remove(i)
-
-
-
     ans = ",".join(la)
     return ans
-

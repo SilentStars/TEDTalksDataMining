@@ -1,26 +1,46 @@
-from .models import Movie
+from .models import Movie,User
 from .background import getUrl
-from .background import video_recommendation
+from .background import video_recommendation,tagManage
 from django.shortcuts import render
 from .forms import RegisterForm
 
+thismovietag = ['china', 'history']
+
 def index(request): #recommendation part
-    tags = "culture,friendship,history"
-    if request.method == 'POST':
+    global thismovietag
+    if request.method == 'POST': #选择后
+        current_user_tag = request.user.tag
+        current_user_id = request.user.id
         if  request.POST.get("pre") == 'like':  #like
-            csv_url = video_recommendation.video_recommendation(tags)
-            first_movie = getUrl.getUrl(csv_url)
+            print("this movie tag test->")
+            print(thismovietag)
+            tags = tagManage.add(current_user_tag,thismovietag)
+            print(tags)
+            print("进行推荐用的tag《-")
+            User.objects.filter(id=current_user_id).update(tag = tags) #把当前用户喜欢的tag更新
+            csv_url,nextmovietag = video_recommendation.video_recommendation(tags) #获得当前视频的主页和标签，从csv来
+            thismovietag[:] = nextmovietag
+            print(thismovietag)
+            print("这是我修改过后的<-")
+            first_movie = getUrl.getUrl(csv_url)#获得下一个视频的url
             context = {'first_movie': first_movie}
             return render(request, 'polls/index.html', context)
         else:  #dislike
-            csv_url = video_recommendation.video_recommendation(tags)
-            first_movie = getUrl.getUrl(csv_url)
+            print("this movie tag test->")
+            print(thismovietag)
+            tags = tagManage.delete(current_user_tag, thismovietag)
+            print(tags)
+            print("进行推荐用的tag《-")
+            User.objects.filter(id=current_user_id).update(tag=tags)  # 把当前用户喜欢的tag更新
+            csv_url, nextmovietag = video_recommendation.video_recommendation(tags)  # 获得当前视频的主页和标签，从csv来
+            thismovietag[:] = nextmovietag
+            first_movie = getUrl.getUrl(csv_url)  # 获得下一个视频的url
             context = {'first_movie': first_movie}
             return render(request, 'polls/index.html', context)
-    else:
+    else:#第一次访问
         first_movie_url = Movie.objects.get(id = 2)
         first_movie = getUrl.getUrl(first_movie_url)
-        context = {'first_movie' : first_movie}
+        context = {'first_movie' : first_movie }
         return render(request, 'polls/index.html', context)
 
 def data(request):
@@ -38,7 +58,7 @@ def home2(request):
 def home3(request):
     return render(request,'polls/index-4.html')
 
-def register(request): #注册和登录的提交
+def register(request): #登录的提交
 
     if request.method == 'POST':
         form = RegisterForm(request.POST)
