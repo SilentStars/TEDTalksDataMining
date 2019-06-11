@@ -96,11 +96,11 @@
                             </div>
                             <div class="zmovo-login">
                                 {% if user.is_authenticated %}
-                                    <p>你已登录，欢迎你：<a href="#">{{ user.username }}</a></p>
-                                    <button class="btn btn-default"><a href="{% url 'logout' %}">注销登录</a></button>
+                                    <p>欢迎： <!--{zh}欢迎：--><!--{en}Welcome:--><!--{fr}Bienvenue:-->  {{ user.username }}</p>
+                                    <button class="btn btn-default"><a href="{% url 'logout' %}" class="btn login-btn"><span class="fa fa-user"></span>注销<!--{zh}注销--><!--{en}Log out--><!--{fr}Connectez - Out--></a></button>
                                 {% else %}
-                                    <a href="{% url 'login' %}" class="btn login-btn"><span class="fa fa-user"></span> Login<!--{zh}登录--><!--{en}Login--><!--{fr}Connexion--></a>
-                                    <a href="{% url 'polls:signup' %}" class="btn login-btn"><span class="fa fa-user"></span> Signup<!--{zh}注册--><!--{en}Signup--><!--{fr}Singnup--></a>
+                                    <a href="{% url 'login' %}" class="btn login-btn"><span class="fa fa-user"></span> Log in<!--{zh}登录--><!--{en}Log in--><!--{fr}Connexion--></a>
+                                    <a href="{% url 'polls:signup' %}" class="btn login-btn"><span class="fa fa-user"></span> Sign up<!--{zh}注册--><!--{en}Sign up--><!--{fr}S'inscrire--></a>
                                 {% endif %}
                             </div>
                         </div>

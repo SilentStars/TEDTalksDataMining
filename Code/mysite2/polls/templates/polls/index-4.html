@@ -92,18 +92,18 @@
                     <div class="col-lg-2 zmovo-t-right">
                         <div class="zmovo-header-right">
                             <div class="zmovo-top-search">
-                                <div class="zmovo-ser-icon" id="clickserch"><span class="fa fa-search"></span></div>
-                                <div class="zmovo-hidden-search" id="opensearch">
-                                    <input type="search" placeholder="Enter the TED.">
-                                </div>
+<!--                                <div class="zmovo-ser-icon" id="clickserch"><span class="fa fa-search"></span></div>-->
+<!--                                <div class="zmovo-hidden-search" id="opensearch">-->
+<!--                                    <input type="search" placeholder="Enter the TED.">-->
+<!--                                </div>-->
                             </div>
                             <div class="zmovo-login">
                                 {% if user.is_authenticated %}
-                                    <p>你已登录，欢迎你：<a href="#">{{ user.username }}</a></p>
-                                    <button class="btn btn-default"><a href="{% url 'logout' %}">注销登录</a></button>
+                                    <p>欢迎： <!--{zh}欢迎：--><!--{en}Welcome:--><!--{fr}Bienvenue:-->  {{ user.username }}</p>
+                                    <button class="btn btn-default"><a href="{% url 'logout' %}" class="btn login-btn"><span class="fa fa-user"></span>注销<!--{zh}注销--><!--{en}Log out--><!--{fr}Connectez - Out--></a></button>
                                 {% else %}
-                                    <a href="{% url 'login' %}" class="btn login-btn"><span class="fa fa-user"></span> Login<!--{zh}登录--><!--{en}Login--><!--{fr}Connexion--></a>
-                                    <a href="{% url 'polls:signup' %}" class="btn login-btn"><span class="fa fa-user"></span> Signup<!--{zh}注册--><!--{en}Signup--><!--{fr}Singnup--></a>
+                                    <a href="{% url 'login' %}" class="btn login-btn"><span class="fa fa-user"></span> Log in<!--{zh}登录--><!--{en}Log in--><!--{fr}Connexion--></a>
+                                    <a href="{% url 'polls:signup' %}" class="btn login-btn"><span class="fa fa-user"></span> Sign up<!--{zh}注册--><!--{en}Sign up--><!--{fr}S'inscrire--></a>
                                 {% endif %}
                             </div>
                         </div>
@@ -114,21 +114,21 @@
         <!-- SLIDER SECTION -->
         <div class="zmovo-about-content">
             <div class="zmovo-hadidng pt-50 pb-30">
-                <h2><span class="text-uppercase">my information</span></h2>
+                <h2><span class="text-uppercase">My information<!--{zh}我的信息--><!--{en}My information--><!--{fr}Mon information--></span></h2>
             </div>
             <br>
             <br>
             <div>
-                <p>username</p>
-                <p>{{ user.username }}</p>
+            <div>
+                <p style="font-size:200%" align="center">Username: <!--{zh}用户名:--><!--{en}Username:--><!--{fr}Nom d'utilisateur:--> {{ user.username }}</p>
             </div>
             <div>
-                <p>preferance</p>
-                <p>{{ user.tag }}</p>
+                <p style="font-size:200%" align="center">Email: <!--{zh}邮箱:--><!--{en}Email:--><!--{fr}Email:--> {{ user.email }}</p>
             </div>
             <div>
-                <p>email</p>
-                <p>{{ user.email }}</p>
+                <p style="font-size:200%" align="center">Preference: <!--{zh}偏爱:--><!--{en}Preference:--><!--{fr}Préférence:--></p>
+                <p align="center"><span style="font-size:200%"  class="c1">{{ user.tag }}</span></p>
+            </div>
             </div>
             <br>
             <br>
@@ -139,7 +139,7 @@
             <div class="container">
                 <div class="zmovo-Popular-items">
                     <div class="zmovo-hadidng pt-50 pb-30">
-                        <h2><span class="text-uppercase">Popular TED<!--{zh}热门视频--><!--{en}Popular TED--><!--{fr}TED populaire--></span></h2>
+                        <h2><span class="text-uppercase">Recommendation<!--{zh}推荐--><!--{en}Recommendation--><!--{fr}Recommandation--></span></h2>
                     </div>
                     <!-- items -->
                     <div class="items" id="popular-shows">
@@ -267,7 +267,7 @@
                     <!-- end items -->
                     <!-- ALL VIEW -->
                     <div class="button pt-50 text-center">
-                        <a href="{% static 'index-3.html'%}" class="btn btn-radus">view all <!--{zh}观看全部--><!--{en}view all--><!--{fr}Voir tout--><span class="fa fa-angle-right"></span></a>
+                        <a href="{% url 'polls:home2' %}" class="btn btn-radus">view all <!--{zh}观看全部--><!--{en}view all--><!--{fr}Voir tout--><span class="fa fa-angle-right"></span></a>
                     </div>
                     <!-- END ALL VIEW -->
                 </div>

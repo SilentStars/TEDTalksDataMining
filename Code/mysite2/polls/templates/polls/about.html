@@ -136,15 +136,15 @@
                     <div class="col-lg-2 zmovo-t-right">
 
                         <div class="zmovo-header-right">
-                            <div class="zmovo-login">
-                                {% if user.is_authenticated %}
-                                    <p>你已登录，欢迎你：<a href="#">{{ user.username }}</a></p>
-                                    <button class="btn btn-default"><a href="{% url 'logout' %}">注销登录</a></button>
-                                    {% else %}
-                                    <a href="{% url 'login' %}" class="btn login-btn"><span class="fa fa-user"></span> Login<!--{zh}登录--><!--{en}Login--><!--{fr}Connexion--></a>
-                                    <a href="{% url 'polls:signup' %}" class="btn login-btn"><span class="fa fa-user"></span> Signup<!--{zh}注册--><!--{en}Signup--><!--{fr}Singnup--></a>
-                                {% endif %}
-                            </div>
+<!--                            <div class="zmovo-login">-->
+<!--                                {% if user.is_authenticated %}-->
+<!--                                   <p>欢迎： &lt;!&ndash;{zh}欢迎：&ndash;&gt;&lt;!&ndash;{en}Welcome:&ndash;&gt;&lt;!&ndash;{fr}Bienvenue:&ndash;&gt;  {{ user.username }}</p>-->
+<!--                                    <button class="btn btn-default"><a href="{% url 'logout' %}" class="btn login-btn"><span class="fa fa-user"></span>注销&lt;!&ndash;{zh}注销&ndash;&gt;&lt;!&ndash;{en}Log out&ndash;&gt;&lt;!&ndash;{fr}Connectez - Out&ndash;&gt;</a></button>-->
+<!--                                    {% else %}-->
+<!--                                    <a href="{% url 'login' %}" class="btn login-btn"><span class="fa fa-user"></span> Login&lt;!&ndash;{zh}登录&ndash;&gt;&lt;!&ndash;{en}Login&ndash;&gt;&lt;!&ndash;{fr}Connexion&ndash;&gt;</a>-->
+<!--                                    <a href="{% url 'polls:signup' %}" class="btn login-btn"><span class="fa fa-user"></span> Signup&lt;!&ndash;{zh}注册&ndash;&gt;&lt;!&ndash;{en}Signup&ndash;&gt;&lt;!&ndash;{fr}Singnup&ndash;&gt;</a>-->
+<!--                                {% endif %}-->
+<!--                            </div>-->
 
                         </div>
 

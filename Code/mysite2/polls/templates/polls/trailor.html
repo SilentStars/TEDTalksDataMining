@@ -3,6 +3,9 @@
 <html class="no-js" lang="en">
 
 <head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="renderer" content="webkit">
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,6 +13,7 @@
     <meta name="keywords" content="Zmovo - Online Movie Video And TV Show HTML Bootstrap 4 Template">
     <meta name="author" content="Themepul">
     <title>TED TALKS</title>
+
     <link href="{% static 'image/favicon.png' %}" rel="icon" />
     <!-- BOOTSTRAP CSS -->
     <link rel="stylesheet" type="text/css" href="{% static 'assets/bootstrap-4.2.1/bootstrap.min.css' %}">
@@ -85,11 +89,11 @@
 
                             <div class="zmovo-login">
                                     {% if user.is_authenticated %}
-                                    <p>你已登录，欢迎你：<a href="#">{{ user.username }}</a></p>
-                                    <button class="btn btn-default"><a href="{% url 'logout' %}">注销登录</a></button>
+                                    <p>欢迎： <!--{zh}欢迎：--><!--{en}Welcome:--><!--{fr}Bienvenue:-->  {{ user.username }}</p>
+                                    <button class="btn btn-default"><a href="{% url 'logout' %}" class="btn login-btn"><span class="fa fa-user"></span>注销<!--{zh}注销--><!--{en}Log out--><!--{fr}Connectez - Out--></a></button>
                                     {% else %}
-                                    <a href="{% url 'login' %}" class="btn login-btn"><span class="fa fa-user"></span> Login<!--{zh}登录--><!--{en}Login--><!--{fr}Connexion--></a>
-                                    <a href="{% url 'polls:signup' %}" class="btn login-btn"><span class="fa fa-user"></span> Signup<!--{zh}注册--><!--{en}Signup--><!--{fr}Singnup--></a>
+                                    <a href="{% url 'login' %}" class="btn login-btn"><span class="fa fa-user"></span> Log in<!--{zh}登录--><!--{en}Log in--><!--{fr}Connexion--></a>
+                                    <a href="{% url 'polls:signup' %}" class="btn login-btn"><span class="fa fa-user"></span> Sign up<!--{zh}注册--><!--{en}Sign up--><!--{fr}S'inscrire--></a>
                                 {% endif %}
                             </div>
                         </div>
@@ -110,29 +114,39 @@
             </div>
         </div>
         <!-- End breadcroumb-area -->
+        <br/>
+        <br/>
+        <br/>
+        <div id="app-7" class="height-200" style="height:500px">
+	    				<vue-slideshow :data="images" :config="config"></vue-slideshow>
+	    			</div>
+        <br/>
+        <br/>
+        <br/>
+
         <div class="zmoto-inner-page">
             <div class="zmovo-trailor-page">
-                <div class="zmovo-trailor pt-50">
-                    <div class="container">
-                        <div class="zmovo-trailor-slides" id="trailor">
-                            <div class="item">
-                                <div class="zmovo-trailor-img">
-                                    <img src="{% static 'image/trailor/1.jpg'%}" alt="">
-                                    <div class="zmovo-slide-ply-btn text-center">
-                                        <a href="" data-video-url="https://youtu.be/_QdPW8JrYzQ" class="video-popup"><img src="{% static 'image/play-button.png'%}" alt=""></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="zmovo-trailor-img">
-                                    <img src="{% static 'image/trailor/1.jpg'%}" alt="">
-                                    <div class="zmovo-slide-ply-btn text-center">
-                                        <a href="" data-video-url="https://youtu.be/36m1o-tM05g" class="video-popup"><img src="{% static 'image/play-button.png'%}" alt=""></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+<!--                <div class="zmovo-trailor pt-50">-->
+<!--                    <div class="container">-->
+<!--                        <div class="zmovo-trailor-slides" id="trailor">-->
+<!--                            <div class="item">-->
+<!--                                <div class="zmovo-trailor-img">-->
+<!--                                    <img src="{% static 'image/trailor/1.jpg'%}" alt="">-->
+<!--                                    <div class="zmovo-slide-ply-btn text-center">-->
+<!--                                        <a href="" data-video-url="https://youtu.be/_QdPW8JrYzQ" class="video-popup"><img src="{% static 'image/play-button.png'%}" alt=""></a>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="item">-->
+<!--                                <div class="zmovo-trailor-img">-->
+<!--                                    <img src="{% static 'image/trailor/1.jpg'%}" alt="">-->
+<!--                                    <div class="zmovo-slide-ply-btn text-center">-->
+<!--                                        <a href="" data-video-url="https://youtu.be/36m1o-tM05g" class="video-popup"><img src="{% static 'image/play-button.png'%}" alt=""></a>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
                     <div class="zmovo-trailor-info pt-30">
                         <div class="container">
                             <div class="row">
@@ -193,14 +207,14 @@
                                                                             <li><span>Language <!--{zh}语言--><!--{en}Language--><!--{fr}La langue--><label>:</label></span><a >English<!--{zh}英语--><!--{en}English--><!--{fr}Anglais--></a></li>
                                                                         </ul>
                                                                     </div>
-                                                                    <div class="social-links">
-                                                                        <strong>Share :<!--{zh}分享 ：--><!--{en}Share :--><!--{fr}Partager :--></strong>
-                                                                        <a href="" class="socila-fb"><span class="fa fa-facebook"></span></a>
-                                                                        <a href="" class="socila-tw"><span class="fa fa-twitter"></span></a>
-                                                                        <a href="" class="socila-sk"><span class="fa fa-skype"></span></a>
-                                                                        <a href="" class="socila-pin"><span class="fa fa-pinterest"></span></a>
-                                                                        <a href="" class="socila-ins"><span class="fa fa-instagram"></span></a>
-                                                                    </div>
+<!--                                                                    <div class="social-links">-->
+<!--                                                                        <strong>Share :&lt;!&ndash;{zh}分享 ：&ndash;&gt;&lt;!&ndash;{en}Share :&ndash;&gt;&lt;!&ndash;{fr}Partager :&ndash;&gt;</strong>-->
+<!--                                                                        <a href="" class="socila-fb"><span class="fa fa-facebook"></span></a>-->
+<!--                                                                        <a href="" class="socila-tw"><span class="fa fa-twitter"></span></a>-->
+<!--                                                                        <a href="" class="socila-sk"><span class="fa fa-skype"></span></a>-->
+<!--                                                                        <a href="" class="socila-pin"><span class="fa fa-pinterest"></span></a>-->
+<!--                                                                        <a href="" class="socila-ins"><span class="fa fa-instagram"></span></a>-->
+<!--                                                                    </div>-->
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -229,6 +243,7 @@
                 <br/>
 
             </div>
+    </div>
     <script src="{% static 'assets/vendor/modernizr-3.5.0.js'%}"></script>
     <script src="{% static 'assets/js/jquery-3.3.1.min.js'%}"></script>
     <script src="{% static 'assets/js/popper.min.js'%}"></script>
@@ -262,7 +277,27 @@
                 var tran = new Translater();
                 if (tran.getLang() === "default") tran.setLang('en');
             </script>
-        
+            <script src="http://www.jq22.com/jquery/vue.min.js"></script>
+		<script src="{% static 'assets/js/vue-slideshow.min.js'%}"></script>
+		<script>
+		    new Vue({
+		        el: "#app-7",
+		        data: {
+		            images: [
+		                { src: "{% static 'image/1.jpg'%}", href: "#1" },
+		                { src: "{% static 'image/1.jpg'%}", href: "#2" },
+		                { src: "{% static 'image/1.jpg'%}", href: "#3" },
+		                { src: "{% static 'image/1.jpg'%}", href: "#4" },
+		                { src: "{% static 'image/1.jpg'%}", href: "#5" }
+		            ],
+		            config: {
+		                effect: "slide",
+		                autoplay: 5000
+		            }
+		        }
+		    });
+		</script>
+
 </body>
 
 </html>
