@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from Code.get_hist import get_hist
 from yellowbrick.classifier import ClassPredictionError
+from yellowbrick.classifier import ConfusionMatrix
 
 data = load_dataset()
 
@@ -18,52 +19,52 @@ cluster = km.labels_.tolist()
 data['cluster'] = cluster
 
 view = data['views'].tolist()
-get_hist(view, 5e4, 2e6, 2000)
+# get_hist(view, 5e4, 2e6, 50)
 
 comment = data['comments'].tolist()
-get_hist(comment, 0, 1000, 50)
+# get_hist(comment, 0, 400, 50)
 
 duration = data['duration'].tolist()
-get_hist(duration, 0, 2000, 20)
+# get_hist(duration, 0, 2000, 20)
 
 
 def judge_views_level(views):
-    if views > 2e6+5e5:
-        return 0
-    elif 1e6+5e5 < views <= 2e6+5e5:
+    if views > 2e6:
         return 1
-    elif 1e6 < views <= 1e6+5e5:
+    elif 1250000 < views <= 2e6:
         return 2
-    elif 6e5 < views <= 1e6:
+    elif 1000000 < views <= 1250000:
         return 3
-    else:
+    elif 700000 < views <= 1000000:
         return 4
+    else:
+        return 5
 
 
 def judge_comment_level(comments):
-    if comments > 300:
-        return 0
-    elif 175 < comments <= 300:
+    if comments > 200:
         return 1
-    elif 130 < comments <= 175:
+    elif 150 < comments <= 200:
         return 2
-    elif 70 < comments <= 130:
+    elif 100 < comments <= 150:
         return 3
-    else:
+    elif 50 < comments <= 100:
         return 4
+    else:
+        return 5
 
 
 def judge_duration_level(durations):
-    if durations > 1500:
-        return 0
-    elif 1200 < durations <= 1500:
+    if durations > 1000:
         return 1
-    elif 750 < durations <= 1200:
+    elif 800 < durations <= 1000:
         return 2
-    elif 500 < durations <= 750:
+    elif 700 < durations <= 800:
         return 3
-    else:
+    elif 500 < durations <= 700:
         return 4
+    else:
+        return 5
 
 
 data['views_level'] = list(map(lambda x: judge_views_level(x), data['views']))
@@ -72,10 +73,10 @@ data['duration_level'] = list(map(lambda x: judge_duration_level(x), data['durat
 
 # print(data.head(5))
 
-train_data = data[:-500]
+train_data = data
 # print(train_data)
-test_data = data[-1000:]
-
+test_data = data[-1500:-1000]
+# print(test_data)
 target = train_data['views_level']
 train = train_data[['cluster', 'comment_level', 'duration_level']]
 # train = train_data[['views_level', 'duration_level']]
@@ -96,6 +97,8 @@ clfs = {'svm': svm.SVC(gamma='auto'),
         'gradient_boost' : GradientBoostingClassifier(n_estimators=50, learning_rate=1.0,max_depth=1, random_state=0)
         }
 
+model = RandomForestClassifier(n_estimators=50)
+
 
 def try_different_method(clf):
     clf.fit(train, target)
@@ -108,10 +111,16 @@ for clf_key in clfs.keys():
     clf = clfs[clf_key]
     try_different_method(clf)
 
+
 classes = ["very popular", "popular", "normal", "little comments", "Nobody cares"]
 visualizer = ClassPredictionError(
-    RandomForestClassifier(), classes=classes
+    model, classes=classes
 )
 visualizer.fit(train, target)
 visualizer.score(train_test, target_test)
 g = visualizer.poof()
+
+cm = ConfusionMatrix(model, classes=[1,2,3,4,5])
+cm.fit(train, target)
+cm.score(train_test, target_test)
+cm.poof()
