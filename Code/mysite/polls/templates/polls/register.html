@@ -66,7 +66,7 @@
                                                 <ul>
                                                     <li><a href="{% url 'polls:index' %}">Homepage<!--{zh}主页--><!--{en}Homepage--><!--{fr}Page d'accueil--></a></li>
                                                     <!--                                                    <li><a href="index-2.html">Home 2</a></li>-->
-                                                    <li><a href="{% url 'polls:home2' %}">Catalog<!--{zh}目录--><!--{en}Catalog--><!--{fr}Répertoire--></a></li>
+<!--                                                    <li><a href="{% url 'polls:home2' %}">Catalog&lt;!&ndash;{zh}目录&ndash;&gt;&lt;!&ndash;{en}Catalog&ndash;&gt;&lt;!&ndash;{fr}Répertoire&ndash;&gt;</a></li>-->
                                                     <li><a href="{% url 'polls:index' %}">Personal<!--{zh}个人--><!--{en}Personal--><!--{fr}Privé--></a></li>
                                                     <!--                                                    <li><a href="index-5.html">Home 5</a></li>-->
                                                 </ul>
@@ -201,8 +201,8 @@
                                         <p class="help text-small text-muted">{{ field.help_text|safe }}</p>
                                         {% endif %}
                                     {% endfor %}
-                                    <div class="zmovo-login-btns">
-                                        <input type="submit"  class="zmovo-login-btn" value="Sign up"><!--{zh}注册--><!--{en}Sign up--><!--{fr}S'inscrire--></input>
+                                    <div align="center">
+                                        <input type="submit"  class="custom-btn" value="Sign up"><!--{zh}注册--><!--{en}Sign up--><!--{fr}S'inscrire--></input>
                                     </div>
 <!--                                    <div class="zmovo-forgate">-->
 <!--                                        <div class="zmovo-forgate-me">-->

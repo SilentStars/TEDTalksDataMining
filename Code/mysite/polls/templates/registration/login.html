@@ -66,7 +66,7 @@
                                                 <ul>
                                                     <li><a href="{% url 'polls:index' %}">Homepage<!--{zh}主页--><!--{en}Homepage--><!--{fr}Page d'accueil--></a></li>
                                                     <!--                                                    <li><a href="index-2.html">Home 2</a></li>-->
-                                                    <li><a href="{% url 'polls:home2' %}">Catalog<!--{zh}目录--><!--{en}Catalog--><!--{fr}Répertoire--></a></li>
+<!--                                                    <li><a href="{% url 'polls:home2' %}">Catalog&lt;!&ndash;{zh}目录&ndash;&gt;&lt;!&ndash;{en}Catalog&ndash;&gt;&lt;!&ndash;{fr}Répertoire&ndash;&gt;</a></li>-->
                                                     <li><a href="{% url 'polls:home3' %}">Personal<!--{zh}个人--><!--{en}Personal--><!--{fr}Privé--></a></li>
                                                     <!--                                                    <li><a href="index-5.html">Home 5</a></li>-->
                                                 </ul>
@@ -144,11 +144,11 @@
 <!--                                            <li class="log-goo"><a href=""><span class="fa fa-google"></span>Google</a></li>-->
 <!--                                        </ul>-->
 <!--                                    </div>-->
-                                    <div class="zmovo-login-btns">
-                                            <input  type="submit"  class="zmovo-login-btn" value="Log in"/>
+                                    <div align="center">
+                                            <input  type="submit"  class="custom-btn" style="" value="Log in"/>
                                     </div>
                                     <div class="zmovo-forgate">
-                        
+
                                         <div class="zmovo-forgate-me">
                                             <a href="{% url 'polls:signup' %}">Forget your <!--{zh}忘记你的--><!--{en}Forget your--><!--{fr}Oublie ton--><span> Password ?<!--{zh} 密码？--><!--{en} Password ?--><!--{fr} Mot de passe ?--></span></a>
                                         </div>

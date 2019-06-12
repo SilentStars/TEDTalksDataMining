@@ -63,7 +63,7 @@
                                             <ul>
                                                 <li><a href="{% url 'polls:index' %}">Homepage<!--{zh}主页--><!--{en}Homepage--><!--{fr}Page d'accueil--></a></li>
                                                 <!--                                                    <li><a href="index-2.html">Home 2</a></li>-->
-                                                <li><a href="{% url 'polls:home2' %}">Catalog<!--{zh}目录--><!--{en}Catalog--><!--{fr}Répertoire--></a></li>
+<!--                                                <li><a href="{% url 'polls:home2' %}">Catalog&lt;!&ndash;{zh}目录&ndash;&gt;&lt;!&ndash;{en}Catalog&ndash;&gt;&lt;!&ndash;{fr}Répertoire&ndash;&gt;</a></li>-->
                                                 <li><a href="{% url 'polls:home3' %}">Personal<!--{zh}个人--><!--{en}Personal--><!--{fr}Privé--></a></li>
                                                 <!--                                                    <li><a href="index-5.html">Home 5</a></li>-->
                                             </ul>
@@ -117,7 +117,7 @@
         <br/>
         <br/>
         <br/>
-        <div id="app-7" class="height-200" style="height:500px">
+        <div id="app-7" class="datadiv" style="height:558px" >
 	    				<vue-slideshow :data="images" :config="config"></vue-slideshow>
 	    			</div>
         <br/>
@@ -234,16 +234,83 @@
                         </div>
                     </div>
                 </div>
-                
+
+
         <div class="to-top" id="back-top">
             <i class="fa fa-angle-up"></i>
         </div>
                 <br/>
                 <br/>
                 <br/>
+                         <div align="center">
+                            <div class="col-lg-9">
+                                <div class="comment-respond">
+                                    <h2 class="title" style="font-size:300%">Prediction<!--{zh}预测--><!--{en}Prediction--><!--{fr}Prédiction--></h2>
+                                    <div class="respons-box">
+                                        <div class="form">
+                                            <form action="#">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <input id="name1" class="form-control form-mane" required="" type="text" placeholder="min">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <input id="name2" class="form-control form-email" required="" type="text" placeholder="s">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <input id="name3" class="form-control form-mane" required="" type="text" placeholder="languages">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <input id="name4" class="form-control form-mane" required="" type="text" placeholder="view">
+                                                        </div>
+                                                    </div>
+                                                </div><div class="row">
+                                                    <div class="col-md-4">
+                                                        <div class="form-group">
+                                                            <input id="name5" class="form-control form-mane" required="" type="text" placeholder="year">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="form-group">
+                                                            <input id="name6" class="form-control form-email" required="" type="text" placeholder="month">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="form-group">
+                                                            <input id="name7" class="form-control form-email" required="" type="text" placeholder="day">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <textarea id="name8" class="form-control form-comment" cols="10" rows="8" name="comment" required="" placeholder="The number of comments for the video will be displayed here. "></textarea>
+                                                </div>
+                                                <div class="buttons">
+                                                    <a style="width:500px" onclick="Submit()" class="btn btn-buttons">Submit<!--{zh}提交--><!--{en}Submit--><!--{fr}Soumettre--></a>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                             </div>
+
+            <br/>
+            <br/>
+            <br/>
 
             </div>
     </div>
+
     <script src="{% static 'assets/vendor/modernizr-3.5.0.js'%}"></script>
     <script src="{% static 'assets/js/jquery-3.3.1.min.js'%}"></script>
     <script src="{% static 'assets/js/popper.min.js'%}"></script>
@@ -284,11 +351,29 @@
 		        el: "#app-7",
 		        data: {
 		            images: [
-		                { src: "{% static 'image/1.jpg'%}", href: "#1" },
-		                { src: "{% static 'image/1.jpg'%}", href: "#2" },
-		                { src: "{% static 'image/1.jpg'%}", href: "#3" },
-		                { src: "{% static 'image/1.jpg'%}", href: "#4" },
-		                { src: "{% static 'image/1.jpg'%}", href: "#5" }
+		                { src: "{% static 'image/1.png'%}", href: "#1" },
+		                { src: "{% static 'image/2.png'%}", href: "#2" },
+		                { src: "{% static 'image/3.png'%}", href: "#3" },
+		                { src: "{% static 'image/4.png'%}", href: "#4" },
+		                { src: "{% static 'image/5.png'%}", href: "#5" },
+		                { src: "{% static 'image/6.png'%}", href: "#6" },
+		                { src: "{% static 'image/7.png'%}", href: "#7" },
+		                { src: "{% static 'image/8.png'%}", href: "#8" },
+		                { src: "{% static 'image/9.png'%}", href: "#9" },
+		                { src: "{% static 'image/10.png'%}", href: "#10" },
+		                { src: "{% static 'image/11.png'%}", href: "#11" },
+		                { src: "{% static 'image/12.png'%}", href: "#12" },
+		                { src: "{% static 'image/13.png'%}", href: "#13" },
+		                { src: "{% static 'image/14.png'%}", href: "#14" },
+		                { src: "{% static 'image/15.png'%}", href: "#15" },
+		                { src: "{% static 'image/16.png'%}", href: "#16" },
+		                { src: "{% static 'image/17.png'%}", href: "#17" },
+		                { src: "{% static 'image/18.png'%}", href: "#18" },
+		                { src: "{% static 'image/19.png'%}", href: "#19" },
+		                { src: "{% static 'image/20.png'%}", href: "#20" },
+		                { src: "{% static 'image/21.png'%}", href: "#21" },
+		                { src: "{% static 'image/22.png'%}", href: "#22" }
+
 		            ],
 		            config: {
 		                effect: "slide",

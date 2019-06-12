@@ -122,6 +122,19 @@
 /*    display: inline-block;*/
 /*    font-size: 16px;*/
 /*}*/
+.custom-btn {
+background-color: #0fb5de; color: #fff; border:none; border-radius:2px;
+transition: all 0.8s;
+
+}
+.custom-btn:hover {
+   background-color: #fd7e14;
+
+}
+.datadiv{
+width:80%;
+margin:0 auto;
+}
 .banner{
     position:relative;
 }
