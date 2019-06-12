@@ -248,54 +248,55 @@
                                     <h2 class="title" style="font-size:300%">Prediction<!--{zh}预测--><!--{en}Prediction--><!--{fr}Prédiction--></h2>
                                     <div class="respons-box">
                                         <div class="form">
-                                            <form action="#">
+                                            <form action="{% url 'polls:data' %}" method="POST">
+                                                    {% csrf_token %}
                                                 <div class="row">
                                                     <div class="col-md-6">
                                                         <div class="form-group">
-                                                            <input id="name1" class="form-control form-mane" required="" type="text" placeholder="min">
+                                                            <input id="name1" name='name1' class="form-control form-mane" required="" type="text" placeholder="min">
                                                         </div>
                                                     </div>
                                                     <div class="col-md-6">
                                                         <div class="form-group">
-                                                            <input id="name2" class="form-control form-email" required="" type="text" placeholder="s">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-md-6">
-                                                        <div class="form-group">
-                                                            <input id="name3" class="form-control form-mane" required="" type="text" placeholder="languages">
+                                                            <input id="name2" name='name2' class="form-control form-email" required="" type="text" placeholder="s">
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="row">
                                                     <div class="col-md-6">
                                                         <div class="form-group">
-                                                            <input id="name4" class="form-control form-mane" required="" type="text" placeholder="view">
+                                                            <input id="name3" name='name3' class="form-control form-mane" required="" type="text" placeholder="languages">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <input id="name4" name='name4' class="form-control form-mane" required="" type="text" placeholder="view">
                                                         </div>
                                                     </div>
                                                 </div><div class="row">
                                                     <div class="col-md-4">
                                                         <div class="form-group">
-                                                            <input id="name5" class="form-control form-mane" required="" type="text" placeholder="year">
+                                                            <input id="name5" name= 'name5' class="form-control form-mane" required="" type="text" placeholder="year">
                                                         </div>
                                                     </div>
                                                     <div class="col-md-4">
                                                         <div class="form-group">
-                                                            <input id="name6" class="form-control form-email" required="" type="text" placeholder="month">
+                                                            <input id="name6" name='name6' class="form-control form-email" required="" type="text" placeholder="month">
                                                         </div>
                                                     </div>
                                                     <div class="col-md-4">
                                                         <div class="form-group">
-                                                            <input id="name7" class="form-control form-email" required="" type="text" placeholder="day">
+                                                            <input id="name7" name='name7' class="form-control form-email" required="" type="text" placeholder="day">
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
-                                                    <textarea id="name8" class="form-control form-comment" cols="10" rows="8" name="comment" required="" placeholder="The number of comments for the video will be displayed here. "></textarea>
+                                                    <textarea id="name8" name='name8' class="form-control form-comment" cols="10" rows="8" name="comment" placeholder="The number of comments for the video will be displayed here. ">{{number}}</textarea>
                                                 </div>
                                                 <div class="buttons">
-                                                    <a style="width:500px" onclick="Submit()" class="btn btn-buttons">Submit<!--{zh}提交--><!--{en}Submit--><!--{fr}Soumettre--></a>
+                                                    <input style="width:500px" type="submit" class="btn btn-buttons"></input>
                                                 </div>
                                             </form>
                                         </div>
