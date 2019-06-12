@@ -3,6 +3,7 @@ from .background import getUrl
 from .background import video_recommendation,tagManage
 from django.shortcuts import render
 from .forms import RegisterForm
+import random
 
 thismovietag = ['china', 'history']
 
@@ -38,7 +39,8 @@ def index(request): #recommendation part
             context = {'first_movie': first_movie}
             return render(request, 'polls/index.html', context)
     else:#第一次访问
-        first_movie_url = Movie.objects.get(id = 2)
+        number = random.randint(2, 40)
+        first_movie_url = Movie.objects.get(id = number)
         first_movie = getUrl.getUrl(first_movie_url)
         context = {'first_movie' : first_movie }
         return render(request, 'polls/index.html', context)
@@ -63,8 +65,9 @@ def register(request): #登录的提交
     if request.method == 'POST':
         form = RegisterForm(request.POST)
         if form.is_valid():
+            number2 = random.randint(5, 40)
             form.save()
-            first_movie_url = Movie.objects.get(id=1)
+            first_movie_url = Movie.objects.get(id=number2)
             first_movie = getUrl.getUrl(first_movie_url)
             context = {'first_movie': first_movie}
             return render(request,'polls/index.html',context)

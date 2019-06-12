@@ -7,7 +7,7 @@ class Movie(models.Model):
     tag = models.CharField(max_length= 200)
 
     def __str__(self):
-        return self.url
+        return self.tag
 
 
 class User(AbstractUser):
