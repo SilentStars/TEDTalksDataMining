@@ -2,44 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="538f39ce-fae4-458f-b29d-1f5b433c0022" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/polls/static/image/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polls/static/image/10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polls/static/image/11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polls/static/image/12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polls/static/image/13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polls/static/image/14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polls/static/image/15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polls/static/image/16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polls/static/image/17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polls/static/image/18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polls/static/image/19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polls/static/image/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polls/static/image/20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polls/static/image/21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polls/static/image/22.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polls/static/image/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polls/static/image/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polls/static/image/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polls/static/image/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polls/static/image/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polls/static/image/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polls/static/image/9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/background/video_recommendation.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/background/video_recommendation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/static/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/polls/static/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/static/image/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/static/image/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/static/image/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/static/image/5.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polls/templates/polls/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/polls/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/templates/polls/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/polls/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/templates/polls/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/polls/index-4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/templates/polls/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/polls/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/templates/polls/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/polls/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/templates/polls/trailor.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/polls/trailor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/registration/login.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,14 +42,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/polls/templates/polls/trailor.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="297" column="71" selection-start-line="297" selection-start-column="71" selection-end-line="297" selection-end-column="71" />
+            <state relative-caret-position="253">
+              <caret line="300" column="46" lean-forward="true" selection-start-line="300" selection-start-column="46" selection-end-line="300" selection-end-column="46" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/polls/templates/polls/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="266" lean-forward="true" selection-start-line="266" selection-end-line="266" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -175,19 +152,19 @@
         <option value="$PROJECT_DIR$/polls/models.py" />
         <option value="$PROJECT_DIR$/polls/views.py" />
         <option value="$PROJECT_DIR$/polls/static/assets/css/style.css" />
-        <option value="$PROJECT_DIR$/polls/templates/polls/about.html" />
         <option value="$PROJECT_DIR$/polls/templates/polls/contact.html" />
         <option value="$PROJECT_DIR$/polls/templates/polls/index.html" />
         <option value="$PROJECT_DIR$/polls/templates/polls/register.html" />
         <option value="$PROJECT_DIR$/polls/templates/registration/login.html" />
         <option value="$PROJECT_DIR$/polls/templates/polls/index-4.html" />
         <option value="$PROJECT_DIR$/polls/templates/polls/trailor.html" />
+        <option value="$PROJECT_DIR$/polls/templates/polls/about.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="21" />
-    <option name="width" value="1281" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1280" />
     <option name="height" value="693" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -331,7 +308,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="693" extended-state="6" />
+    <frame x="0" y="22" width="1280" height="693" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12679426" />
@@ -537,17 +514,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/polls/templates/polls/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="108" column="59" selection-start-line="108" selection-start-column="59" selection-end-line="108" selection-end-column="59" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/polls/templates/polls/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -596,11 +562,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/polls/templates/polls/trailor.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="297" column="71" selection-start-line="297" selection-start-column="71" selection-end-line="297" selection-end-column="71" />
+        <state relative-caret-position="253">
+          <caret line="300" column="46" lean-forward="true" selection-start-line="300" selection-start-column="46" selection-end-line="300" selection-end-column="46" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polls/templates/polls/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="266" lean-forward="true" selection-start-line="266" selection-end-line="266" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
