@@ -29,7 +29,7 @@ for str in movieList:
     replaceList.append(get_str)
 
 tfidf_matrix = tfidf.fit_transform(replaceList)
-km = KMeans(n_clusters=7).fit(tfidf_matrix)
+km = KMeans(n_clusters=9).fit(tfidf_matrix)
 # print(km.labels_.tolist())
 
 pred = SpectralClustering().fit_predict(tfidf_matrix)
@@ -53,7 +53,7 @@ print("Calinski-Harabasz Score", metrics.calinski_harabaz_score(tfidf_matrix.toa
 
 joblib.dump(km, modelURL)
 
-model = KMeans(7)
+model = KMeans(9)
 visualizer = SilhouetteVisualizer(model)
 
 visualizer.fit(tfidf_matrix)

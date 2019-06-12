@@ -10,7 +10,7 @@ def regression_predict(duration, language, views, published_date):
     input = array.reshape(1, -1)
 
     result = rfr.predict(input)[0]
-    return result
+    return int(result)
 
 
 print(regression_predict(957, 25, 1108371, 1442936421))
