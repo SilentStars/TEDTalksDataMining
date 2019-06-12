@@ -1,9 +1,6 @@
 import pandas as pd
-from numpy import *
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
-from sklearn.cluster import KMeans
-from sklearn.externals import joblib
 
 modelURL = '/Users/houqinhan/TEDTalksDataMining/TEDTalksDataMining/Data/model_cluster.pkl'
 

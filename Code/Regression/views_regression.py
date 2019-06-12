@@ -1,3 +1,5 @@
+from sklearn.externals import joblib
+
 from Code.load_dataset import load_dataset
 from sklearn import linear_model
 import numpy as np
@@ -40,7 +42,7 @@ print('Maximum: ' + str(max))
 min = np.min(comment)
 print('Minimum: ' + str(min) + '\n')
 
-plt.hist(comment, range=(0,1000), bins=100, rwidth=1)
+plt.hist(comment, range=(0, 1000), bins=100, rwidth=1)
 plt.show()
 
 seaborn.heatmap(data.corr(), center=0, annot=True)
@@ -74,13 +76,20 @@ print('MSE: ' + str(mean_squared_error(target_test, regr.predict(train_test))))
 print('MSE(Calculate MSE according to the formula): ' + str(np.mean((regr.predict(train_test) - target_test)**2)))
 print('RMSE:', str(np.sqrt(mean_squared_error(target_test, regr.predict(train_test)))))
 
-
+modelURL = '/Users/houqinhan/TEDTalksDataMining/TEDTalksDataMining/Data/model_regression.pkl'
 rfr = RandomForestRegressor(max_features=4, random_state=0, n_estimators=100)
 rfr.fit(train, target)
+joblib.dump(rfr, modelURL)
 print("\n")
+print(train_test)
+print(type(train_test))
+a = np.array([957, 25, 1108371, 1442936421])
+c = a.reshape(1, -1)
+print(rfr.predict(c)[0])
 print('MSE: ' + str(mean_squared_error(target_test, rfr.predict(train_test))))
 print('MSE(Calculate MSE according to the formula): ' + str(np.mean((rfr.predict(train_test) - target_test)**2)))
 print('RMSE:', str(np.sqrt(mean_squared_error(target_test, rfr.predict(train_test)))))
+
 
 ridge_clf = Ridge(alpha=0.2)
 ridge_clf.fit(train, target)
